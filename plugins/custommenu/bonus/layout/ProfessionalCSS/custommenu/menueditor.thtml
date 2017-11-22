@@ -1,0 +1,100 @@
+
+<form action="{site_admin_url}/plugins/custommenu/index.php" method="post" id="custommenueditor" class="compact">
+  <fieldset>
+    <legend>{lang_custommenueditor}</legend>
+    <dl>
+      <dt><label for="mmode">{lang_mode}</label></dt>
+      <dd>
+        <select name="mmode" id="mmode">
+          <option value="fixation" {val_mode_fixation}>{lang_mode_fixation}</option>
+          <option value="variable" {val_mode_variable}>{lang_mode_variable}</option>
+          <option value="php" {val_mode_php}>{lang_mode_php}</option>
+        </select>
+      </dd>
+      <dd class="description">{lang_mode_info}</dd>
+
+      <dt><label for="title_fixation">{lang_title_fixation}</label></dt>
+      <dd><input type="text" size="40" value="{val_title_fixation}" name="title_fixation" id="title_fixation" class="text"{xhtml}></dd>
+      <dd class="description">{lang_title_fixation_info}</dd>
+
+      <dt><label for="title_variable">{lang_title_variable}</label></dt>
+      <dd><input type="text" size="40" value="{val_title_variable}" name="title_variable" id="title_variable" class="text"{xhtml}></dd>
+      <dd class="description">{lang_title_variable_info}</dd>
+
+      <dt><label for="php_function">{lang_php_function}</label></dt>
+      <dd><input type="text" size="40" value="{val_php_function}" name="php_function" id="php_function" class="text"{xhtml}></dd>
+      <dd class="description">{lang_php_function_info}</dd>
+
+      <dt><label for="is_enabled">{lang_is_enabled}</label></dt>
+      <dd><input type="checkbox" {val_is_enabled} name="is_enabled" id="is_enabled"{xhtml}></dd>
+
+      <dt><label for="url">{lang_menuitemurl}</label></dt>
+      <dd><input type="text" size="40" value="{val_menuitemurl}" name="url" id="url" class="text"{xhtml}></dd>
+      <dd class="description">{lang_includehttp}</dd>
+
+      <dt><label for="mid">{lang_menuitemid}</label></dt>
+      <dd><input type="text" size="40" value="{val_mid}" name="mid" id="mid" class="text" {mid_readonly}{xhtml}></dd>
+      <dd class="description">{lang_nospaces}</dd>
+
+      <dt><label for="pmid">{lang_parentitemid}</label></dt>
+      <dd>{selpmid}</dd>
+
+      <dt><label for="class_name">{lang_class_name}</label></dt>
+      <dd><input type="text" size="40" value="{val_class_name}" name="class_name" id="class_name" class="text"{xhtml}></dd>
+      <dd class="description">{lang_class_name_info}</dd>
+
+      <dt><label for="tid">{lang_topic}</label></dt>
+      <dd>
+        <select name="tid" id="tid">
+          <option value="all" {all_selected}>{lang_all}</option>
+          <option value="homeonly" {homeonly_selected}>{lang_homeonly}</option>
+          {topic_options}
+        </select>
+      </dd>
+
+      <dt><label for="menuorder">{lang_menuitemorder}</label></dt>
+      <dd><input type="text" size="4" value="{val_menuorder}" name="menuorder" id="menuorder" class="text"{xhtml}></dd>
+      <dd class="description">0-9999</dd>
+
+      <dt><label for="type">{lang_menuitemtype}</label></dt>
+      <dd>{lang_type}</dd>
+
+      <dt><label for="icon_url">{lang_icon_url}</label></dt>
+      <dd><input type="text" size="40" value="{val_icon_url}" name="icon_url" id="icon_url" class="text"{xhtml}></dd>
+      <dd class="description">{lang_icon_url_info}</dd>
+
+      <dt><label for="icon_url">{lang_pattern}</label></dt>
+      <dd><input type="text" size="40" value="{val_pattern}" name="pattern" id="pattern" class="text"{xhtml}>
+          &nbsp;{lang_is_preg}:<input type="checkbox" {val_is_preg} name="is_preg" id="is_preg"{xhtml}></dd>
+      <dd class="description">{lang_pattern_info}</dd>
+    </dl>
+  </fieldset>
+
+  <fieldset>
+    <legend>{lang_accessrights}</legend>
+    <dl>
+      <dt>{lang_owner}</dt>
+      <dd>{owner_name}</dd>
+
+      <dt><label for="group_id">{lang_group}</label></dt>
+      <dd>{group_dropdown}</dd>
+
+      <dt><label for="perm_owner">{lang_permissions}</label></dt>
+      <dd>{permissions_editor}</dd>
+      <dd class="description">{lang_perm_key}</dd>
+      <dd class="description">{lang_permissions_msg}</dd>
+    </dl>
+  </fieldset>
+
+  <ul class="submit">
+    <li><input type="submit" name="mode" value="{lang_save}"{xhtml}></li>
+    <li><input type="submit" name="mode" value="{lang_cancel}"{xhtml}></li>
+    <li><input type="submit" name="mode" value="{lang_delete}" onclick="return confirm('{lang_confirm}');" {delete_disabled}{xhtml}></li>
+    <li>
+      <input type="hidden" name="type" value="{val_type}"{xhtml}>
+      <input type="hidden" name="owner_id" value="{owner_id}"{xhtml}>
+      <input type="hidden" name="old_mid" value="{val_old_mid}"{xhtml}>
+      <input type="hidden" name="{gltoken_name}" value="{gltoken}"{xhtml}>
+    </li>
+  </ul>
+</form>

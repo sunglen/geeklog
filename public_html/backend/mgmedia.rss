@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.7.3" -->
+<rss version="2.0">
+    <channel>
+        <title>GL170中文版 Media Gallery RSS Feed</title>
+        <description><![CDATA[~本地测试~]]></description>
+        <link>http://www.rtcomponent.com</link>
+        <lastBuildDate>Fri, 29 Apr 2011 09:13:44 +0100</lastBuildDate>
+        <generator>FeedCreator 1.7.3</generator>
+        <item>
+            <title>产品库</title>
+            <link>http://www.rtcomponent.com/mediagallery/album.php?aid=1</link>
+            <description><![CDATA[Album contains 8 item and 0 sub-albums.<br /><br />rtworks产品库！]]></description>
+            <author>Admin</author>
+            <pubDate>Thu, 01 Jan 1970 00:00:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

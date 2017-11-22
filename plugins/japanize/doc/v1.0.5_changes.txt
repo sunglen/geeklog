@@ -1,0 +1,14 @@
+1.0.4 ～ 1.0.5 改善点 2009/10/13
+
+1.header用テンプレート html_attribute追加 暫定処置
+2.グループ詳細日本語化のみなおし
+
+差替追加ファイル
+--------------------
+functions.inc
+sql/sql_japanize5.php
+sql/sql_japanize105.php
+templates/admin/information.thtml
+
+version.php
+

@@ -1,0 +1,3 @@
+        <div class="moderation-cc-item">
+            <a href="{page_url}">{option_label}</a>
+        </div>

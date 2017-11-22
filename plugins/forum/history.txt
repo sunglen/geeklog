@@ -1,0 +1,25 @@
+Geeklog Forum Plugin Changes for version 2.7.1
+Date: July 19/2008
+
+Blaine Lang
+
+
+*** Summary of changes ***
+Fixed a cross-site scripting vulnerability as identified by Yosuke Yamada of NetAgent Co., Ltd and reported to us by Noriko Takahashi of JPCERT/CC
+http://jvn.jp/
+
+This release addressed the issue is related to entering a specially crafted javascript string into the forum search.
+
+
+*** Listing of file changes ***
+
+Version 2.7.1 File Changes
+--------------------
+
+    public_html\index.php
+    config.php
+    functions.inc
+
+Upgrade Steps:
+ - Replace the changed files
+ - Run the plugin upgrade

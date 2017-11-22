@@ -1,0 +1,27 @@
+
+<!-- featuredstorytext.thtml { -->
+
+<div class="storytext" style="background-color:#FFFFCB">
+  <div style="background-color:#F2EBB4">
+    <div style="font-size:medium;"><span style="font-size:small;">[emoji:76]</span> {story_title_link} <span style="font-size:small;">[emoji:120]</span></div>
+
+    <div class="status">
+      <div>[emoji:176]{story_date}</div>
+      <div>{lang_contributed_by} {start_contributedby_anchortag}{contributedby_user}{end_contributedby_anchortag}</div>
+      <div>[emoji:62] <a class="storybyline" href="{story_topic_url}">{story_topic_name}</a></div>
+    </div>
+  </div>
+
+  <div class="story_introtext">
+    {story_introtext}
+  </div>
+<!-- <p class="more">{readmore_link}</p> -->
+<p class="more">{start_readmore_anchortag}{lang_readmore}{end_readmore_anchortag}</p>
+
+  <div class="navi" style="margin-top:10px"><kana>
+    |{page_selector}|{post_comment_link}|{comments_with_count}|{trackbacks_with_count}|{edit_link}|
+  </kana></div>
+  <hr class="mobile_separator" style="background-color:#F6F2CE"{xhtml}>
+</div>
+
+<!-- } featuredstorytext.thtml -->

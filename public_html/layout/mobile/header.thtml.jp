@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS"{xhtml}>
+<meta http-equiv="Content-Style-Type" content="text/css"{xhtml}>
+<title>{page_title_and_site_name}</title>
+<meta http-equiv="Pragma" content="no-cache"{xhtml}>
+<meta http-equiv="Cache-Control" content="no-cache"{xhtml}>
+<meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT"{xhtml}>
+<link rel="alternate" media="handheld" href="{site_url}"{xhtml}>
+{plg_headercode}
+</head>
+<body>
+  <!-- #header { -->
+  <div>
+    <div bgcolor="#CCCCFF" style="background-color: #CCCCFF"><a href="{site_url}">{site_name}</a></div>
+    <div style="font-size:small">{welcome_msg_jp}</div>
+    <?php
+        if (function_exists('phpblock_themetester') AND function_exists('CUSTOM_MOBILE_is_cellular') AND !CUSTOM_MOBILE_is_cellular()) {
+            echo phpblock_themetester();
+        }
+    ?>
+    <hr style="color:#666699"{xhtml}>
+  </div>
+  <!-- } #header -->
+<div style="text-align:left">

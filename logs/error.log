@@ -1,0 +1,757 @@
+*** dummy entry ***
+Mon Apr 11 14:31:29 2011 - Attempting to install the 'spamx' plugin 
+Mon Apr 11 14:31:29 2011 - Attempting to create 'spamx Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to add 'spamx' features 
+Mon Apr 11 14:31:29 2011 - Adding 'spamx.admin' feature to the 'spamx Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to give all users in the Root group access to the 'spamx' Admin group 
+Mon Apr 11 14:31:29 2011 - Inserting default data 
+Mon Apr 11 14:31:29 2011 - Registering 'spamx' plugin 
+Mon Apr 11 14:31:29 2011 - Successfully installed the 'spamx' plugin! 
+Mon Apr 11 14:31:29 2011 - Attempting to install the 'calendar' plugin 
+Mon Apr 11 14:31:29 2011 - Attempting to create 'Calendar Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to add 'calendar' features 
+Mon Apr 11 14:31:29 2011 - Adding 'calendar.moderate' feature to the 'Calendar Admin' group 
+Mon Apr 11 14:31:29 2011 - Adding 'calendar.edit' feature to the 'Calendar Admin' group 
+Mon Apr 11 14:31:29 2011 - Adding 'calendar.submit' feature to the 'Calendar Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to give all users in the Root group access to the 'calendar' Admin group 
+Mon Apr 11 14:31:29 2011 - Registering 'calendar' plugin 
+Mon Apr 11 14:31:29 2011 - Successfully installed the 'calendar' plugin! 
+Mon Apr 11 14:31:29 2011 - Attempting to install the 'custommenu' plugin 
+Mon Apr 11 14:31:29 2011 - Attempting to create 'CustomMenu Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to add 'custommenu' features 
+Mon Apr 11 14:31:29 2011 - Adding 'custommenu.admin' feature to the 'CustomMenu Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to give all users in the Root group access to the 'custommenu' Admin group 
+Mon Apr 11 14:31:29 2011 - Registering 'custommenu' plugin 
+Mon Apr 11 14:31:29 2011 - Successfully installed the 'custommenu' plugin! 
+Mon Apr 11 14:31:29 2011 - Attempting to install the 'xmlsitemap' plugin 
+Mon Apr 11 14:31:29 2011 - Attempting to add 'xmlsitemap' features 
+Mon Apr 11 14:31:29 2011 - Inserting default data 
+Mon Apr 11 14:31:29 2011 - Registering 'xmlsitemap' plugin 
+Mon Apr 11 14:31:29 2011 - SitemapXML: Cannot write the sitemap file: /home/sunge/geeklog/geeklog-20110411/public_html/sitemap.xml 
+Mon Apr 11 14:31:29 2011 - Plugin postinstall failed 
+Mon Apr 11 14:31:29 2011 - Auto-uninstalling plugin xmlsitemap: 
+Mon Apr 11 14:31:29 2011 - Removing variable xmlsitemap_filename 
+Mon Apr 11 14:31:29 2011 - ...success 
+Mon Apr 11 14:31:29 2011 - Removing variable xmlsitemap_mobile 
+Mon Apr 11 14:31:29 2011 - ...success 
+Mon Apr 11 14:31:29 2011 - Attempting to remove comments for xmlsitemap 
+Mon Apr 11 14:31:29 2011 - ...success 
+Mon Apr 11 14:31:29 2011 - Attempting to remove config table records for group_name: xmlsitemap 
+Mon Apr 11 14:31:29 2011 - ...success 
+Mon Apr 11 14:31:29 2011 - Attempting to unregister the xmlsitemap plugin from Geeklog 
+Mon Apr 11 14:31:29 2011 - ...success 
+Mon Apr 11 14:31:29 2011 - Finished uninstalling the xmlsitemap plugin. 
+Mon Apr 11 14:31:29 2011 - Attempting to install the 'forum' plugin 
+Mon Apr 11 14:31:29 2011 - Attempting to create 'forum Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to add 'forum' features 
+Mon Apr 11 14:31:29 2011 - Adding 'forum.edit' feature to the 'forum Admin' group 
+Mon Apr 11 14:31:29 2011 - Adding 'forum.user' feature to the 'forum Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to give all users in the Root group access to the 'forum' Admin group 
+Mon Apr 11 14:31:29 2011 - Registering 'forum' plugin 
+Mon Apr 11 14:31:29 2011 - Successfully installed the 'forum' plugin! 
+Mon Apr 11 14:31:29 2011 - Attempting to install the 'filemgmt' plugin 
+Mon Apr 11 14:31:29 2011 - Attempting to create 'filemgmt Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to add 'filemgmt' features 
+Mon Apr 11 14:31:29 2011 - Adding 'filemgmt.user' feature to the 'filemgmt Admin' group 
+Mon Apr 11 14:31:29 2011 - Adding 'filemgmt.edit' feature to the 'filemgmt Admin' group 
+Mon Apr 11 14:31:29 2011 - Adding 'filemgmt.upload' feature to the 'filemgmt Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to give all users in the Root group access to the 'filemgmt' Admin group 
+Mon Apr 11 14:31:29 2011 - Registering 'filemgmt' plugin 
+Mon Apr 11 14:31:29 2011 - Successfully installed the 'filemgmt' plugin! 
+Mon Apr 11 14:31:29 2011 - Attempting to install the 'captcha' plugin 
+Mon Apr 11 14:31:29 2011 - Attempting to add 'captcha' features 
+Mon Apr 11 14:31:29 2011 - Registering 'captcha' plugin 
+Mon Apr 11 14:31:29 2011 - Successfully installed the 'captcha' plugin! 
+Mon Apr 11 14:31:29 2011 - Attempting to install the 'staticpages' plugin 
+Mon Apr 11 14:31:29 2011 - Attempting to create 'Static Page Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to add 'staticpages' features 
+Mon Apr 11 14:31:29 2011 - Adding 'staticpages.edit' feature to the 'Static Page Admin' group 
+Mon Apr 11 14:31:29 2011 - Adding 'staticpages.delete' feature to the 'Static Page Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to give all users in the Root group access to the 'staticpages' Admin group 
+Mon Apr 11 14:31:29 2011 - Registering 'staticpages' plugin 
+Mon Apr 11 14:31:29 2011 - Successfully installed the 'staticpages' plugin! 
+Mon Apr 11 14:31:29 2011 - Attempting to install the 'polls' plugin 
+Mon Apr 11 14:31:29 2011 - Attempting to create 'Polls Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to add 'polls' features 
+Mon Apr 11 14:31:29 2011 - Adding 'polls.edit' feature to the 'Polls Admin' group 
+Mon Apr 11 14:31:29 2011 - Attempting to give all users in the Root group access to the 'polls' Admin group 
+Mon Apr 11 14:31:29 2011 - Inserting default data 
+Mon Apr 11 14:31:30 2011 - Registering 'polls' plugin 
+Mon Apr 11 14:31:30 2011 - Successfully installed the 'polls' plugin! 
+Mon Apr 11 14:31:30 2011 - Attempting to install the 'dataproxy' plugin 
+Mon Apr 11 14:31:30 2011 - Attempting to create 'DataProxy Admin' group 
+Mon Apr 11 14:31:30 2011 - Attempting to add 'dataproxy' features 
+Mon Apr 11 14:31:30 2011 - Adding 'dataproxy.admin' feature to the 'DataProxy Admin' group 
+Mon Apr 11 14:31:30 2011 - Attempting to give all users in the Root group access to the 'dataproxy' Admin group 
+Mon Apr 11 14:31:30 2011 - Registering 'dataproxy' plugin 
+Mon Apr 11 14:31:30 2011 - Successfully installed the 'dataproxy' plugin! 
+Mon Apr 11 14:31:30 2011 - Attempting to install the 'links' plugin 
+Mon Apr 11 14:31:30 2011 - Attempting to create 'Links Admin' group 
+Mon Apr 11 14:31:30 2011 - Attempting to add 'links' features 
+Mon Apr 11 14:31:30 2011 - Adding 'links.edit' feature to the 'Links Admin' group 
+Mon Apr 11 14:31:30 2011 - Adding 'links.moderate' feature to the 'Links Admin' group 
+Mon Apr 11 14:31:30 2011 - Adding 'links.submit' feature to the 'Links Admin' group 
+Mon Apr 11 14:31:30 2011 - Attempting to give all users in the Root group access to the 'links' Admin group 
+Mon Apr 11 14:31:30 2011 - Registering 'links' plugin 
+Mon Apr 11 14:31:30 2011 - Successfully installed the 'links' plugin! 
+2011年04月11日 星期一 14时41分00秒 - Attempting to install the mediagallery Plugin 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_albums table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_albums table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_config table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_config table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_media table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_media table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_mediaqueue table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_mediaqueue table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_media_albums table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_media_albums table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_media_album_queue table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_media_album_queue table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_playback_options table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_playback_options table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_usage_tracking table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_usage_tracking table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_userprefs table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_userprefs table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_watermarks table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_watermarks table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_session_items table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_session_items table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_session_items2 table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_session_items2 table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_session_log table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_session_log table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_sessions table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_sessions table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_category table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_category table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_sort table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_sort table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_postcard table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_postcard table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_rating table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_rating table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_exif_tags table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_exif_tags table 
+2011年04月11日 星期一 14时41分00秒 - Creating mg_watermark_data table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created mg_watermark_data table 
+2011年04月11日 星期一 14时41分00秒 - Creating exif_tag_data table 
+2011年04月11日 星期一 14时41分00秒 - Success - Created exif_tag_data table 
+2011年04月11日 星期一 14时41分00秒 - Inserting default data into tables 
+2011年04月11日 星期一 14时41分00秒 - Success - default data added to Media Gallery tables 
+2011年04月11日 星期一 14时41分00秒 - Success - inserting data into exif_tag_data table 
+2011年04月11日 星期一 14时41分00秒 - Attempting to create mediagallery admin group 
+2011年04月11日 星期一 14时41分00秒 - ...success 
+2011年04月11日 星期一 14时41分00秒 - Calling DB_insertID() 
+2011年04月11日 星期一 14时41分00秒 - ...success - group_id = 25 
+2011年04月11日 星期一 14时41分00秒 - About to save group_id to vars table for use during uninstall 
+2011年04月11日 星期一 14时41分00秒 - ...success 
+2011年04月11日 星期一 14时41分00秒 - Attempting to create mediagallery config group 
+2011年04月11日 星期一 14时41分00秒 - ...success 
+2011年04月11日 星期一 14时41分00秒 - Calling DB_insertID() 
+2011年04月11日 星期一 14时41分00秒 - ...success - cgroup_id = 25 
+2011年04月11日 星期一 14时41分00秒 - About to save cgroup_id to vars table for use during uninstall 
+2011年04月11日 星期一 14时41分00秒 - ...success 
+2011年04月11日 星期一 14时41分00秒 - Adding mediagallery.admin feature 
+2011年04月11日 星期一 14时41分00秒 - Success - feat_id = 42 
+2011年04月11日 星期一 14时41分00秒 - Adding mediagallery.admin feature to admin group 
+2011年04月11日 星期一 14时41分00秒 - Success 
+2011年04月11日 星期一 14时41分00秒 - Adding mediagallery.config feature 
+2011年04月11日 星期一 14时41分00秒 - Success - feat_id = 43 
+2011年04月11日 星期一 14时41分00秒 - Adding mediagallery.config feature to config group 
+2011年04月11日 星期一 14时41分00秒 - Success 
+2011年04月11日 星期一 14时41分00秒 - Attempting to give all users in Root group access to mediagallery admin group 
+2011年04月11日 星期一 14时41分00秒 - Success 
+2011年04月11日 星期一 14时41分00秒 - Attempting to give all users in Root group access to mediagallery config group 
+2011年04月11日 星期一 14时41分00秒 - Success 
+2011年04月11日 星期一 14时41分00秒 - Registering mediagallery plugin with Geeklog 
+2011年04月11日 星期一 14时41分00秒 - Succesfully installed the mediagallery Plugin! 
+Mon Apr 11 14:46:22 2011 - Attempting to install the 'spamx' plugin 
+Mon Apr 11 14:46:22 2011 - Attempting to create 'spamx Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to add 'spamx' features 
+Mon Apr 11 14:46:22 2011 - Adding 'spamx.admin' feature to the 'spamx Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to give all users in the Root group access to the 'spamx' Admin group 
+Mon Apr 11 14:46:22 2011 - Inserting default data 
+Mon Apr 11 14:46:22 2011 - Registering 'spamx' plugin 
+Mon Apr 11 14:46:22 2011 - Successfully installed the 'spamx' plugin! 
+Mon Apr 11 14:46:22 2011 - Attempting to install the 'calendar' plugin 
+Mon Apr 11 14:46:22 2011 - Attempting to create 'Calendar Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to add 'calendar' features 
+Mon Apr 11 14:46:22 2011 - Adding 'calendar.moderate' feature to the 'Calendar Admin' group 
+Mon Apr 11 14:46:22 2011 - Adding 'calendar.edit' feature to the 'Calendar Admin' group 
+Mon Apr 11 14:46:22 2011 - Adding 'calendar.submit' feature to the 'Calendar Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to give all users in the Root group access to the 'calendar' Admin group 
+Mon Apr 11 14:46:22 2011 - Registering 'calendar' plugin 
+Mon Apr 11 14:46:22 2011 - Successfully installed the 'calendar' plugin! 
+Mon Apr 11 14:46:22 2011 - Attempting to install the 'xmlsitemap' plugin 
+Mon Apr 11 14:46:22 2011 - Attempting to add 'xmlsitemap' features 
+Mon Apr 11 14:46:22 2011 - Inserting default data 
+Mon Apr 11 14:46:22 2011 - Registering 'xmlsitemap' plugin 
+Mon Apr 11 14:46:22 2011 - SitemapXML: Cannot write the sitemap file: /home/sunge/geeklog/geeklog-20110411/public_html/sitemap.xml 
+Mon Apr 11 14:46:22 2011 - Plugin postinstall failed 
+Mon Apr 11 14:46:22 2011 - Auto-uninstalling plugin xmlsitemap: 
+Mon Apr 11 14:46:22 2011 - Removing variable xmlsitemap_filename 
+Mon Apr 11 14:46:22 2011 - ...success 
+Mon Apr 11 14:46:22 2011 - Removing variable xmlsitemap_mobile 
+Mon Apr 11 14:46:22 2011 - ...success 
+Mon Apr 11 14:46:22 2011 - Attempting to remove comments for xmlsitemap 
+Mon Apr 11 14:46:22 2011 - ...success 
+Mon Apr 11 14:46:22 2011 - Attempting to remove config table records for group_name: xmlsitemap 
+Mon Apr 11 14:46:22 2011 - ...success 
+Mon Apr 11 14:46:22 2011 - Attempting to unregister the xmlsitemap plugin from Geeklog 
+Mon Apr 11 14:46:22 2011 - ...success 
+Mon Apr 11 14:46:22 2011 - Finished uninstalling the xmlsitemap plugin. 
+Mon Apr 11 14:46:22 2011 - Attempting to install the 'staticpages' plugin 
+Mon Apr 11 14:46:22 2011 - Attempting to create 'Static Page Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to add 'staticpages' features 
+Mon Apr 11 14:46:22 2011 - Adding 'staticpages.edit' feature to the 'Static Page Admin' group 
+Mon Apr 11 14:46:22 2011 - Adding 'staticpages.delete' feature to the 'Static Page Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to give all users in the Root group access to the 'staticpages' Admin group 
+Mon Apr 11 14:46:22 2011 - Registering 'staticpages' plugin 
+Mon Apr 11 14:46:22 2011 - Successfully installed the 'staticpages' plugin! 
+Mon Apr 11 14:46:22 2011 - Attempting to install the 'polls' plugin 
+Mon Apr 11 14:46:22 2011 - Attempting to create 'Polls Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to add 'polls' features 
+Mon Apr 11 14:46:22 2011 - Adding 'polls.edit' feature to the 'Polls Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to give all users in the Root group access to the 'polls' Admin group 
+Mon Apr 11 14:46:22 2011 - Inserting default data 
+Mon Apr 11 14:46:22 2011 - Registering 'polls' plugin 
+Mon Apr 11 14:46:22 2011 - Successfully installed the 'polls' plugin! 
+Mon Apr 11 14:46:22 2011 - Attempting to install the 'links' plugin 
+Mon Apr 11 14:46:22 2011 - Attempting to create 'Links Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to add 'links' features 
+Mon Apr 11 14:46:22 2011 - Adding 'links.edit' feature to the 'Links Admin' group 
+Mon Apr 11 14:46:22 2011 - Adding 'links.moderate' feature to the 'Links Admin' group 
+Mon Apr 11 14:46:22 2011 - Adding 'links.submit' feature to the 'Links Admin' group 
+Mon Apr 11 14:46:22 2011 - Attempting to give all users in the Root group access to the 'links' Admin group 
+Mon Apr 11 14:46:22 2011 - Registering 'links' plugin 
+Mon Apr 11 14:46:22 2011 - Successfully installed the 'links' plugin! 
+Mon Apr 11 15:13:47 2011 - Attempting to install the 'spamx' plugin 
+Mon Apr 11 15:13:47 2011 - Attempting to create 'spamx Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to add 'spamx' features 
+Mon Apr 11 15:13:47 2011 - Adding 'spamx.admin' feature to the 'spamx Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to give all users in the Root group access to the 'spamx' Admin group 
+Mon Apr 11 15:13:47 2011 - Inserting default data 
+Mon Apr 11 15:13:47 2011 - Registering 'spamx' plugin 
+Mon Apr 11 15:13:47 2011 - Successfully installed the 'spamx' plugin! 
+Mon Apr 11 15:13:47 2011 - Attempting to install the 'calendar' plugin 
+Mon Apr 11 15:13:47 2011 - Attempting to create 'Calendar Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to add 'calendar' features 
+Mon Apr 11 15:13:47 2011 - Adding 'calendar.moderate' feature to the 'Calendar Admin' group 
+Mon Apr 11 15:13:47 2011 - Adding 'calendar.edit' feature to the 'Calendar Admin' group 
+Mon Apr 11 15:13:47 2011 - Adding 'calendar.submit' feature to the 'Calendar Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to give all users in the Root group access to the 'calendar' Admin group 
+Mon Apr 11 15:13:47 2011 - Registering 'calendar' plugin 
+Mon Apr 11 15:13:47 2011 - Successfully installed the 'calendar' plugin! 
+Mon Apr 11 15:13:47 2011 - Attempting to install the 'xmlsitemap' plugin 
+Mon Apr 11 15:13:47 2011 - Attempting to add 'xmlsitemap' features 
+Mon Apr 11 15:13:47 2011 - Inserting default data 
+Mon Apr 11 15:13:47 2011 - Registering 'xmlsitemap' plugin 
+Mon Apr 11 15:13:47 2011 - SitemapXML: Cannot write the sitemap file: /var/www/rtcomponent/sitemap.xml 
+Mon Apr 11 15:13:47 2011 - Plugin postinstall failed 
+Mon Apr 11 15:13:47 2011 - Auto-uninstalling plugin xmlsitemap: 
+Mon Apr 11 15:13:47 2011 - Removing variable xmlsitemap_filename 
+Mon Apr 11 15:13:47 2011 - ...success 
+Mon Apr 11 15:13:47 2011 - Removing variable xmlsitemap_mobile 
+Mon Apr 11 15:13:47 2011 - ...success 
+Mon Apr 11 15:13:47 2011 - Attempting to remove comments for xmlsitemap 
+Mon Apr 11 15:13:47 2011 - ...success 
+Mon Apr 11 15:13:47 2011 - Attempting to remove config table records for group_name: xmlsitemap 
+Mon Apr 11 15:13:47 2011 - ...success 
+Mon Apr 11 15:13:47 2011 - Attempting to unregister the xmlsitemap plugin from Geeklog 
+Mon Apr 11 15:13:47 2011 - ...success 
+Mon Apr 11 15:13:47 2011 - Finished uninstalling the xmlsitemap plugin. 
+Mon Apr 11 15:13:47 2011 - Attempting to install the 'staticpages' plugin 
+Mon Apr 11 15:13:47 2011 - Attempting to create 'Static Page Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to add 'staticpages' features 
+Mon Apr 11 15:13:47 2011 - Adding 'staticpages.edit' feature to the 'Static Page Admin' group 
+Mon Apr 11 15:13:47 2011 - Adding 'staticpages.delete' feature to the 'Static Page Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to give all users in the Root group access to the 'staticpages' Admin group 
+Mon Apr 11 15:13:47 2011 - Registering 'staticpages' plugin 
+Mon Apr 11 15:13:47 2011 - Successfully installed the 'staticpages' plugin! 
+Mon Apr 11 15:13:47 2011 - Attempting to install the 'polls' plugin 
+Mon Apr 11 15:13:47 2011 - Attempting to create 'Polls Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to add 'polls' features 
+Mon Apr 11 15:13:47 2011 - Adding 'polls.edit' feature to the 'Polls Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to give all users in the Root group access to the 'polls' Admin group 
+Mon Apr 11 15:13:47 2011 - Inserting default data 
+Mon Apr 11 15:13:47 2011 - Registering 'polls' plugin 
+Mon Apr 11 15:13:47 2011 - Successfully installed the 'polls' plugin! 
+Mon Apr 11 15:13:47 2011 - Attempting to install the 'links' plugin 
+Mon Apr 11 15:13:47 2011 - Attempting to create 'Links Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to add 'links' features 
+Mon Apr 11 15:13:47 2011 - Adding 'links.edit' feature to the 'Links Admin' group 
+Mon Apr 11 15:13:47 2011 - Adding 'links.moderate' feature to the 'Links Admin' group 
+Mon Apr 11 15:13:47 2011 - Adding 'links.submit' feature to the 'Links Admin' group 
+Mon Apr 11 15:13:47 2011 - Attempting to give all users in the Root group access to the 'links' Admin group 
+Mon Apr 11 15:13:47 2011 - Registering 'links' plugin 
+Mon Apr 11 15:13:47 2011 - Successfully installed the 'links' plugin! 
+Mon Apr 11 16:15:04 2011 - Attempting to install the 'spamx' plugin 
+Mon Apr 11 16:15:04 2011 - Attempting to create 'spamx Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to add 'spamx' features 
+Mon Apr 11 16:15:04 2011 - Adding 'spamx.admin' feature to the 'spamx Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to give all users in the Root group access to the 'spamx' Admin group 
+Mon Apr 11 16:15:04 2011 - Inserting default data 
+Mon Apr 11 16:15:04 2011 - Registering 'spamx' plugin 
+Mon Apr 11 16:15:04 2011 - Successfully installed the 'spamx' plugin! 
+Mon Apr 11 16:15:04 2011 - Attempting to install the 'calendar' plugin 
+Mon Apr 11 16:15:04 2011 - Attempting to create 'Calendar Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to add 'calendar' features 
+Mon Apr 11 16:15:04 2011 - Adding 'calendar.moderate' feature to the 'Calendar Admin' group 
+Mon Apr 11 16:15:04 2011 - Adding 'calendar.edit' feature to the 'Calendar Admin' group 
+Mon Apr 11 16:15:04 2011 - Adding 'calendar.submit' feature to the 'Calendar Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to give all users in the Root group access to the 'calendar' Admin group 
+Mon Apr 11 16:15:04 2011 - Registering 'calendar' plugin 
+Mon Apr 11 16:15:04 2011 - Successfully installed the 'calendar' plugin! 
+Mon Apr 11 16:15:04 2011 - Attempting to install the 'xmlsitemap' plugin 
+Mon Apr 11 16:15:04 2011 - Attempting to add 'xmlsitemap' features 
+Mon Apr 11 16:15:04 2011 - Inserting default data 
+Mon Apr 11 16:15:04 2011 - Registering 'xmlsitemap' plugin 
+Mon Apr 11 16:15:04 2011 - SitemapXML: Cannot write the sitemap file: /home/sunge/geeklog/geeklog-20110411/public_html/sitemap.xml 
+Mon Apr 11 16:15:04 2011 - Plugin postinstall failed 
+Mon Apr 11 16:15:04 2011 - Auto-uninstalling plugin xmlsitemap: 
+Mon Apr 11 16:15:04 2011 - Removing variable xmlsitemap_filename 
+Mon Apr 11 16:15:04 2011 - ...success 
+Mon Apr 11 16:15:04 2011 - Removing variable xmlsitemap_mobile 
+Mon Apr 11 16:15:04 2011 - ...success 
+Mon Apr 11 16:15:04 2011 - Attempting to remove comments for xmlsitemap 
+Mon Apr 11 16:15:04 2011 - ...success 
+Mon Apr 11 16:15:04 2011 - Attempting to remove config table records for group_name: xmlsitemap 
+Mon Apr 11 16:15:04 2011 - ...success 
+Mon Apr 11 16:15:04 2011 - Attempting to unregister the xmlsitemap plugin from Geeklog 
+Mon Apr 11 16:15:04 2011 - ...success 
+Mon Apr 11 16:15:04 2011 - Finished uninstalling the xmlsitemap plugin. 
+Mon Apr 11 16:15:04 2011 - Attempting to install the 'staticpages' plugin 
+Mon Apr 11 16:15:04 2011 - Attempting to create 'Static Page Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to add 'staticpages' features 
+Mon Apr 11 16:15:04 2011 - Adding 'staticpages.edit' feature to the 'Static Page Admin' group 
+Mon Apr 11 16:15:04 2011 - Adding 'staticpages.delete' feature to the 'Static Page Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to give all users in the Root group access to the 'staticpages' Admin group 
+Mon Apr 11 16:15:04 2011 - Registering 'staticpages' plugin 
+Mon Apr 11 16:15:04 2011 - Successfully installed the 'staticpages' plugin! 
+Mon Apr 11 16:15:04 2011 - Attempting to install the 'polls' plugin 
+Mon Apr 11 16:15:04 2011 - Attempting to create 'Polls Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to add 'polls' features 
+Mon Apr 11 16:15:04 2011 - Adding 'polls.edit' feature to the 'Polls Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to give all users in the Root group access to the 'polls' Admin group 
+Mon Apr 11 16:15:04 2011 - Inserting default data 
+Mon Apr 11 16:15:04 2011 - Registering 'polls' plugin 
+Mon Apr 11 16:15:04 2011 - Successfully installed the 'polls' plugin! 
+Mon Apr 11 16:15:04 2011 - Attempting to install the 'links' plugin 
+Mon Apr 11 16:15:04 2011 - Attempting to create 'Links Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to add 'links' features 
+Mon Apr 11 16:15:04 2011 - Adding 'links.edit' feature to the 'Links Admin' group 
+Mon Apr 11 16:15:04 2011 - Adding 'links.moderate' feature to the 'Links Admin' group 
+Mon Apr 11 16:15:04 2011 - Adding 'links.submit' feature to the 'Links Admin' group 
+Mon Apr 11 16:15:04 2011 - Attempting to give all users in the Root group access to the 'links' Admin group 
+Mon Apr 11 16:15:04 2011 - Registering 'links' plugin 
+Mon Apr 11 16:15:04 2011 - Successfully installed the 'links' plugin! 
+2011年04月11日 星期一 16时19分57秒 - Attempting to install the themedit Plugin 
+2011年04月11日 星期一 16时19分57秒 - Creating thm_contents table 
+2011年04月11日 星期一 16时19分57秒 - Success - Created thm_contents table 
+2011年04月11日 星期一 16时19分57秒 - Attempting to create themedit admin group 
+2011年04月11日 星期一 16时19分57秒 - ...success 
+2011年04月11日 星期一 16时19分57秒 - About to save group_id to vars table for use during uninstall 
+2011年04月11日 星期一 16时19分57秒 - ...success 
+2011年04月11日 星期一 16时19分57秒 - Adding themedit.admin feature 
+2011年04月11日 星期一 16时19分57秒 - Success 
+2011年04月11日 星期一 16时19分57秒 - Adding themedit.admin feature to admin group 
+2011年04月11日 星期一 16时19分57秒 - Success 
+2011年04月11日 星期一 16时19分57秒 - Attempting to give all users in Root group access to themedit admin group 
+2011年04月11日 星期一 16时19分57秒 - Registering themedit plugin with Geeklog 
+2011年04月11日 星期一 16时19分57秒 - Succesfully installed the themedit Plugin! 
+2011年04月11日 星期一 16时20分04秒 - Attempting to install the mediagallery Plugin 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_albums table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_albums table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_config table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_config table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_media table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_media table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_mediaqueue table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_mediaqueue table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_media_albums table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_media_albums table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_media_album_queue table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_media_album_queue table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_playback_options table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_playback_options table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_usage_tracking table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_usage_tracking table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_userprefs table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_userprefs table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_watermarks table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_watermarks table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_session_items table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_session_items table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_session_items2 table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_session_items2 table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_session_log table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_session_log table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_sessions table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_sessions table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_category table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_category table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_sort table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_sort table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_postcard table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_postcard table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_rating table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_rating table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_exif_tags table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_exif_tags table 
+2011年04月11日 星期一 16时20分04秒 - Creating mg_watermark_data table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created mg_watermark_data table 
+2011年04月11日 星期一 16时20分04秒 - Creating exif_tag_data table 
+2011年04月11日 星期一 16时20分04秒 - Success - Created exif_tag_data table 
+2011年04月11日 星期一 16时20分04秒 - Inserting default data into tables 
+2011年04月11日 星期一 16时20分04秒 - Success - default data added to Media Gallery tables 
+2011年04月11日 星期一 16时20分04秒 - Success - inserting data into exif_tag_data table 
+2011年04月11日 星期一 16时20分04秒 - Attempting to create mediagallery admin group 
+2011年04月11日 星期一 16时20分04秒 - ...success 
+2011年04月11日 星期一 16时20分04秒 - Calling DB_insertID() 
+2011年04月11日 星期一 16时20分04秒 - ...success - group_id = 22 
+2011年04月11日 星期一 16时20分04秒 - About to save group_id to vars table for use during uninstall 
+2011年04月11日 星期一 16时20分04秒 - ...success 
+2011年04月11日 星期一 16时20分04秒 - Attempting to create mediagallery config group 
+2011年04月11日 星期一 16时20分04秒 - ...success 
+2011年04月11日 星期一 16时20分04秒 - Calling DB_insertID() 
+2011年04月11日 星期一 16时20分04秒 - ...success - cgroup_id = 22 
+2011年04月11日 星期一 16时20分04秒 - About to save cgroup_id to vars table for use during uninstall 
+2011年04月11日 星期一 16时20分04秒 - ...success 
+2011年04月11日 星期一 16时20分04秒 - Adding mediagallery.admin feature 
+2011年04月11日 星期一 16时20分04秒 - Success - feat_id = 36 
+2011年04月11日 星期一 16时20分04秒 - Adding mediagallery.admin feature to admin group 
+2011年04月11日 星期一 16时20分04秒 - Success 
+2011年04月11日 星期一 16时20分04秒 - Adding mediagallery.config feature 
+2011年04月11日 星期一 16时20分04秒 - Success - feat_id = 37 
+2011年04月11日 星期一 16时20分04秒 - Adding mediagallery.config feature to config group 
+2011年04月11日 星期一 16时20分04秒 - Success 
+2011年04月11日 星期一 16时20分04秒 - Attempting to give all users in Root group access to mediagallery admin group 
+2011年04月11日 星期一 16时20分04秒 - Success 
+2011年04月11日 星期一 16时20分04秒 - Attempting to give all users in Root group access to mediagallery config group 
+2011年04月11日 星期一 16时20分04秒 - Success 
+2011年04月11日 星期一 16时20分04秒 - Registering mediagallery plugin with Geeklog 
+2011年04月11日 星期一 16时20分04秒 - Succesfully installed the mediagallery Plugin! 
+2011年04月11日 星期一 16时23分00秒 - Attempting to install the 'custommenu' plugin 
+2011年04月11日 星期一 16时23分00秒 - Attempting to create 'CustomMenu Admin' group 
+2011年04月11日 星期一 16时23分00秒 - Attempting to add 'custommenu' features 
+2011年04月11日 星期一 16时23分00秒 - Adding 'custommenu.admin' feature to the 'CustomMenu Admin' group 
+2011年04月11日 星期一 16时23分00秒 - Attempting to give all users in the Root group access to the 'custommenu' Admin group 
+2011年04月11日 星期一 16时23分00秒 - Registering 'custommenu' plugin 
+2011年04月11日 星期一 16时23分00秒 - Successfully installed the 'custommenu' plugin! 
+2011年04月11日 星期一 16时23分08秒 - Attempting to install the 'filemgmt' plugin 
+2011年04月11日 星期一 16时23分08秒 - Attempting to create 'filemgmt Admin' group 
+2011年04月11日 星期一 16时23分08秒 - Attempting to add 'filemgmt' features 
+2011年04月11日 星期一 16时23分08秒 - Adding 'filemgmt.user' feature to the 'filemgmt Admin' group 
+2011年04月11日 星期一 16时23分08秒 - Adding 'filemgmt.edit' feature to the 'filemgmt Admin' group 
+2011年04月11日 星期一 16时23分08秒 - Adding 'filemgmt.upload' feature to the 'filemgmt Admin' group 
+2011年04月11日 星期一 16时23分08秒 - Attempting to give all users in the Root group access to the 'filemgmt' Admin group 
+2011年04月11日 星期一 16时23分08秒 - Registering 'filemgmt' plugin 
+2011年04月11日 星期一 16时23分08秒 - Successfully installed the 'filemgmt' plugin! 
+2011年04月11日 星期一 16时23分16秒 - Attempting to install the 'captcha' plugin 
+2011年04月11日 星期一 16时23分16秒 - Attempting to add 'captcha' features 
+2011年04月11日 星期一 16时23分16秒 - Registering 'captcha' plugin 
+2011年04月11日 星期一 16时23分16秒 - Successfully installed the 'captcha' plugin! 
+2011年04月11日 星期一 16时23分21秒 - Attempting to install the 'dataproxy' plugin 
+2011年04月11日 星期一 16时23分21秒 - Attempting to create 'DataProxy Admin' group 
+2011年04月11日 星期一 16时23分21秒 - Attempting to add 'dataproxy' features 
+2011年04月11日 星期一 16时23分21秒 - Adding 'dataproxy.admin' feature to the 'DataProxy Admin' group 
+2011年04月11日 星期一 16时23分21秒 - Attempting to give all users in the Root group access to the 'dataproxy' Admin group 
+2011年04月11日 星期一 16时23分21秒 - Registering 'dataproxy' plugin 
+2011年04月11日 星期一 16时23分21秒 - Successfully installed the 'dataproxy' plugin! 
+2011年04月11日 星期一 16时23分26秒 - Attempting to install the 'forum' plugin 
+2011年04月11日 星期一 16时23分26秒 - Attempting to create 'forum Admin' group 
+2011年04月11日 星期一 16时23分26秒 - Attempting to add 'forum' features 
+2011年04月11日 星期一 16时23分26秒 - Adding 'forum.edit' feature to the 'forum Admin' group 
+2011年04月11日 星期一 16时23分26秒 - Adding 'forum.user' feature to the 'forum Admin' group 
+2011年04月11日 星期一 16时23分26秒 - Attempting to give all users in the Root group access to the 'forum' Admin group 
+2011年04月11日 星期一 16时23分26秒 - Registering 'forum' plugin 
+2011年04月11日 星期一 16时23分26秒 - Successfully installed the 'forum' plugin! 
+2011年04月11日 星期一 16时27分23秒 - File move from /home/sunge/geeklog/geeklog-20110411/public_html/filemgmt_data/files/tmp/wdhBPwBscT.htm to /home/sunge/geeklog/geeklog-20110411/public_html/filemgmt_data/files/javascript-problem.htm 
+2011年04月11日 星期一 16时27分23秒 - Results of rename is: 1 
+2011年04月11日 星期一 16时28分29秒 - Themedit: Unknown theme name posted:  
+2011年04月11日 星期一 16时28分29秒 - Themedit: Unknown file name posted:  
+2011年04月11日 星期一 16时29分14秒 - Themedit: Unknown theme name posted:  
+2011年04月11日 星期一 16时29分14秒 - Themedit: Unknown file name posted:  
+2011年04月11日 星期一 16时35分37秒 - 错误，无效的用户名: 'sun.ge@126.com' 
+2011年04月11日 星期一 16时35分52秒 - 错误，无效的用户名: 'sun.ge' 
+Mon Apr 11 16:50:45 2011 - 2 - session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' @ /home/sunge/geeklog/geeklog-20110411/system/custom/custom_cellular.php line 781 
+Mon Apr 11 16:50:45 2011 - 2 - session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' @ /home/sunge/geeklog/geeklog-20110411/system/custom/custom_cellular.php line 781 
+2011年04月11日 星期一 20时55分35秒 - Themedit: Unknown theme name posted:  
+2011年04月11日 星期一 20时55分35秒 - Themedit: Unknown file name posted:  
+2011年04月11日 星期一 20时55分51秒 - Themedit: Unknown theme name posted:  
+2011年04月11日 星期一 20时55分51秒 - Themedit: Unknown file name posted:  
+2011年04月11日 星期一 21时00分24秒 - Themedit: Unknown theme name posted:  
+2011年04月11日 星期一 21时00分24秒 - Themedit: Unknown file name posted:  
+2011年04月11日 星期一 21时00分28秒 - Themedit: Unknown theme name posted:  
+2011年04月11日 星期一 21时00分28秒 - Themedit: Unknown file name posted:  
+2011年04月11日 星期一 21时00分41秒 - Themedit: Unknown theme name posted:  
+2011年04月11日 星期一 21时00分41秒 - Themedit: Unknown file name posted:  
+2011年04月14日 星期四 20时56分03秒 - 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND urlfor='http://www.rtcomponent.com/forum/createtopic.php?PHPSESSID=6ke69htnq' at line 1. SQL in question: DELETE FROM gl_tokens WHERE owner_id= AND urlfor='http://www.rtcomponent.com/forum/createtopic.php?PHPSESSID=6ke69htnq41omq2nh0o6r1mbc6' 
+2011年04月14日 星期四 20时56分03秒 - 256 - An SQL error has occurred. Please see error.log for details. @ /home/sunge/geeklog/geeklog-20110411/system/databases/mysql.class.php line 260 
+2011年04月14日 星期四 20时56分24秒 - 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND urlfor='http://www.rtcomponent.com/forum/createtopic.php?PHPSESSID=6ke69htnq' at line 1. SQL in question: DELETE FROM gl_tokens WHERE owner_id= AND urlfor='http://www.rtcomponent.com/forum/createtopic.php?PHPSESSID=6ke69htnq41omq2nh0o6r1mbc6' 
+2011年04月14日 星期四 20时56分24秒 - 256 - An SQL error has occurred. Please see error.log for details. @ /home/sunge/geeklog/geeklog-20110411/system/databases/mysql.class.php line 260 
+2011年04月14日 星期四 23时40分03秒 - 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND urlfor='http://www.rtcomponent.com/forum/createtopic.php'' at line 1. SQL in question: DELETE FROM gl_tokens WHERE owner_id= AND urlfor='http://www.rtcomponent.com/forum/createtopic.php' 
+2011年04月14日 星期四 23时40分03秒 - 256 - An SQL error has occurred. Please see error.log for details. @ /home/sunge/geeklog/geeklog-20110411/system/databases/mysql.class.php line 260 
+2011年04月14日 星期四 23时52分29秒 - 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND urlfor='http://www.rtcomponent.com/forum/createtopic.php?PHPSESSID=nafc1mrgi' at line 1. SQL in question: DELETE FROM gl_tokens WHERE owner_id= AND urlfor='http://www.rtcomponent.com/forum/createtopic.php?PHPSESSID=nafc1mrgisvje5uomegeb85021' 
+2011年04月14日 星期四 23时52分29秒 - 256 - An SQL error has occurred. Please see error.log for details. @ /home/sunge/geeklog/geeklog-20110411/system/databases/mysql.class.php line 260 
+2011年04月17日 星期日 02时20分02秒 - 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND urlfor='http://www.rtcomponent.com/forum/createtopic.php'' at line 1. SQL in question: DELETE FROM gl_tokens WHERE owner_id= AND urlfor='http://www.rtcomponent.com/forum/createtopic.php' 
+2011年04月17日 星期日 02时20分02秒 - 256 - An SQL error has occurred. Please see error.log for details. @ /home/sunge/geeklog/geeklog-20110411/system/databases/mysql.class.php line 260 
+2011年04月17日 星期日 02时20分10秒 - 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND urlfor='http://www.rtcomponent.com/forum/createtopic.php'' at line 1. SQL in question: DELETE FROM gl_tokens WHERE owner_id= AND urlfor='http://www.rtcomponent.com/forum/createtopic.php' 
+2011年04月17日 星期日 02时20分10秒 - 256 - An SQL error has occurred. Please see error.log for details. @ /home/sunge/geeklog/geeklog-20110411/system/databases/mysql.class.php line 260 
+2011年04月17日 星期日 02时20分22秒 - 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND urlfor='http://www.rtcomponent.com/forum/createtopic.php'' at line 1. SQL in question: DELETE FROM gl_tokens WHERE owner_id= AND urlfor='http://www.rtcomponent.com/forum/createtopic.php' 
+2011年04月17日 星期日 02时20分22秒 - 256 - An SQL error has occurred. Please see error.log for details. @ /home/sunge/geeklog/geeklog-20110411/system/databases/mysql.class.php line 260 
+2011年04月17日 星期日 06时23分34秒 - AddNewFileShot - Upload filename  is /home/sunge/geeklog/geeklog-20110411/public_html/filemgmt_data/files/摄像0001.3gp 
+2011年04月17日 星期日 06时23分34秒 - File uploaded and moved ok 
+2011年04月17日 星期日 12时10分22秒 - 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND urlfor='http://www.rtcomponent.com/forum/createtopic.php'' at line 1. SQL in question: DELETE FROM gl_tokens WHERE owner_id= AND urlfor='http://www.rtcomponent.com/forum/createtopic.php' 
+2011年04月17日 星期日 12时10分22秒 - 256 - An SQL error has occurred. Please see error.log for details. @ /home/sunge/geeklog/geeklog-20110411/system/databases/mysql.class.php line 260 
+2011年04月18日 星期一 10时18分01秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分03秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分04秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分06秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分07秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分09秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/b/b_p730092149.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/b/b_p730092149.jpg. 
+2011年04月18日 星期一 10时18分09秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分10秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分11秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分13秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分14秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分16秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分17秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分19秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/d/d_p809243633.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/d/d_p809243633.jpg. 
+2011年04月18日 星期一 10时18分19秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分20秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/5/5_p809249983.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/5/5_p809249983.jpg. 
+2011年04月18日 星期一 10时18分20秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分21秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/c/c_p809295268.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/c/c_p809295268.jpg. 
+2011年04月18日 星期一 10时18分21秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分22秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/9/9_p828179811.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/9/9_p828179811.jpg. 
+2011年04月18日 星期一 10时18分22秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分24秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/e/e_p830753536.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/e/e_p830753536.jpg. 
+2011年04月18日 星期一 10时18分24秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分25秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分27秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分28秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分29秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分31秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分32秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/2/2_p834743901.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/2/2_p834743901.jpg. 
+2011年04月18日 星期一 10时18分32秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分33秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/5/5_p834743992.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/5/5_p834743992.jpg. 
+2011年04月18日 星期一 10时18分33秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分35秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分36秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分38秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分39秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/3/3_p834747022.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/3/3_p834747022.jpg. 
+2011年04月18日 星期一 10时18分39秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分40秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分42秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分43秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分45秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分46秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分47秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分49秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/1/1_p841359916.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/1/1_p841359916.jpg. 
+2011年04月18日 星期一 10时18分49秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分50秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/2/2_p841366451.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/2/2_p841366451.jpg. 
+2011年04月18日 星期一 10时18分50秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分51秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/6/6_p848667065.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/6/6_p848667065.jpg. 
+2011年04月18日 星期一 10时18分51秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分53秒 - MG_resizeImage: Original (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/orig/d/d_p849567381.jpg) is smaller than target, original copied to target image (/home/sunge/geeklog/geeklog-20110411/public_html/mediagallery/mediaobjects/disp/d/d_p849567381.jpg. 
+2011年04月18日 星期一 10时18分53秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分54秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分56秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分58秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时18分59秒 - MG Upload: Successfully uploaded a media object 
+2011年04月18日 星期一 10时19分01秒 - MG Upload: Successfully uploaded a media object 
+2011年04月19日 星期二 12时48分10秒 - Themedit: Unknown theme name posted:  
+2011年04月19日 星期二 12时48分10秒 - Themedit: Unknown file name posted:  
+2011年04月19日 星期二 12时48分14秒 - Themedit: Unknown theme name posted:  
+2011年04月19日 星期二 12时48分14秒 - Themedit: Unknown file name posted:  
+2011年04月19日 星期二 12时49分29秒 - Themedit: Unknown theme name posted:  
+2011年04月19日 星期二 12时49分29秒 - Themedit: Unknown file name posted:  
+2011年04月20日 星期三 09时16分46秒 - 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND urlfor='http://www.rtcomponent.com/forum/createtopic.php?PHPSESSID=k0souqrrg' at line 1. SQL in question: DELETE FROM gl_tokens WHERE owner_id= AND urlfor='http://www.rtcomponent.com/forum/createtopic.php?PHPSESSID=k0souqrrgb9qig2c67urtfo537' 
+2011年04月20日 星期三 09时16分46秒 - 256 - An SQL error has occurred. Please see error.log for details. @ /home/sunge/geeklog/geeklog-20110411/system/databases/mysql.class.php line 260 
+2011年04月20日 星期三 10时23分58秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时42分43秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时42分44秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时42分45秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时42分47秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时42分48秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时42分50秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时42分51秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时42分52秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分35秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分36秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分38秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分39秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分41秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分42秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分44秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分45秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分46秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分48秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分49秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分51秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分52秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分54秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分55秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分57秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分58秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时44分59秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时45分01秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时45分02秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时45分04秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时45分05秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时45分07秒 - MG Upload: Successfully uploaded a media object 
+2011年04月26日 星期二 17时45分09秒 - MG Upload: Successfully uploaded a media object 
+2011年05月26日 星期四 20时06分39秒 - Themedit: Unknown theme name posted:  
+2011年05月26日 星期四 20时06分39秒 - Themedit: Unknown file name posted:  
+2011年05月26日 星期四 20时06分56秒 - Themedit: File is not writable.  Theme: WAIproCSS file: storytext.thtml 
+2011年05月26日 星期四 20时06分56秒 - Themedit: Debug::undefined index: help_story_text_no_br 
+Mon Jun 13 06:47:22 2011 - Attempting to install the 'spamx' plugin 
+Mon Jun 13 06:47:22 2011 - Attempting to create 'spamx Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to add 'spamx' features 
+Mon Jun 13 06:47:22 2011 - Adding 'spamx.admin' feature to the 'spamx Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to give all users in the Root group access to the 'spamx' Admin group 
+Mon Jun 13 06:47:22 2011 - Inserting default data 
+Mon Jun 13 06:47:22 2011 - Registering 'spamx' plugin 
+Mon Jun 13 06:47:22 2011 - Successfully installed the 'spamx' plugin! 
+Mon Jun 13 06:47:22 2011 - Attempting to install the 'calendar' plugin 
+Mon Jun 13 06:47:22 2011 - Attempting to create 'Calendar Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to add 'calendar' features 
+Mon Jun 13 06:47:22 2011 - Adding 'calendar.moderate' feature to the 'Calendar Admin' group 
+Mon Jun 13 06:47:22 2011 - Adding 'calendar.edit' feature to the 'Calendar Admin' group 
+Mon Jun 13 06:47:22 2011 - Adding 'calendar.submit' feature to the 'Calendar Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to give all users in the Root group access to the 'calendar' Admin group 
+Mon Jun 13 06:47:22 2011 - Registering 'calendar' plugin 
+Mon Jun 13 06:47:22 2011 - Successfully installed the 'calendar' plugin! 
+Mon Jun 13 06:47:22 2011 - Attempting to install the 'xmlsitemap' plugin 
+Mon Jun 13 06:47:22 2011 - Attempting to add 'xmlsitemap' features 
+Mon Jun 13 06:47:22 2011 - Inserting default data 
+Mon Jun 13 06:47:22 2011 - Registering 'xmlsitemap' plugin 
+Mon Jun 13 06:47:22 2011 - SitemapXML: Cannot write the sitemap file: /home/sunge/geeklog/geeklog-20110613/public_html/sitemap.xml 
+Mon Jun 13 06:47:22 2011 - Plugin postinstall failed 
+Mon Jun 13 06:47:22 2011 - Auto-uninstalling plugin xmlsitemap: 
+Mon Jun 13 06:47:22 2011 - Removing variable xmlsitemap_filename 
+Mon Jun 13 06:47:22 2011 - ...success 
+Mon Jun 13 06:47:22 2011 - Removing variable xmlsitemap_mobile 
+Mon Jun 13 06:47:22 2011 - ...success 
+Mon Jun 13 06:47:22 2011 - Attempting to remove comments for xmlsitemap 
+Mon Jun 13 06:47:22 2011 - ...success 
+Mon Jun 13 06:47:22 2011 - Attempting to remove config table records for group_name: xmlsitemap 
+Mon Jun 13 06:47:22 2011 - ...success 
+Mon Jun 13 06:47:22 2011 - Attempting to unregister the xmlsitemap plugin from Geeklog 
+Mon Jun 13 06:47:22 2011 - ...success 
+Mon Jun 13 06:47:22 2011 - Finished uninstalling the xmlsitemap plugin. 
+Mon Jun 13 06:47:22 2011 - Attempting to install the 'forum' plugin 
+Mon Jun 13 06:47:22 2011 - Attempting to create 'forum Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to add 'forum' features 
+Mon Jun 13 06:47:22 2011 - Adding 'forum.edit' feature to the 'forum Admin' group 
+Mon Jun 13 06:47:22 2011 - Adding 'forum.user' feature to the 'forum Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to give all users in the Root group access to the 'forum' Admin group 
+Mon Jun 13 06:47:22 2011 - Registering 'forum' plugin 
+Mon Jun 13 06:47:22 2011 - Successfully installed the 'forum' plugin! 
+Mon Jun 13 06:47:22 2011 - Attempting to install the 'filemgmt' plugin 
+Mon Jun 13 06:47:22 2011 - Attempting to create 'filemgmt Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to add 'filemgmt' features 
+Mon Jun 13 06:47:22 2011 - Adding 'filemgmt.user' feature to the 'filemgmt Admin' group 
+Mon Jun 13 06:47:22 2011 - Adding 'filemgmt.edit' feature to the 'filemgmt Admin' group 
+Mon Jun 13 06:47:22 2011 - Adding 'filemgmt.upload' feature to the 'filemgmt Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to give all users in the Root group access to the 'filemgmt' Admin group 
+Mon Jun 13 06:47:22 2011 - Registering 'filemgmt' plugin 
+Mon Jun 13 06:47:22 2011 - Successfully installed the 'filemgmt' plugin! 
+Mon Jun 13 06:47:22 2011 - Attempting to install the 'staticpages' plugin 
+Mon Jun 13 06:47:22 2011 - Attempting to create 'Static Page Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to add 'staticpages' features 
+Mon Jun 13 06:47:22 2011 - Adding 'staticpages.edit' feature to the 'Static Page Admin' group 
+Mon Jun 13 06:47:22 2011 - Adding 'staticpages.delete' feature to the 'Static Page Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to give all users in the Root group access to the 'staticpages' Admin group 
+Mon Jun 13 06:47:22 2011 - Registering 'staticpages' plugin 
+Mon Jun 13 06:47:22 2011 - Successfully installed the 'staticpages' plugin! 
+Mon Jun 13 06:47:22 2011 - Attempting to install the 'links' plugin 
+Mon Jun 13 06:47:22 2011 - Attempting to create 'Links Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to add 'links' features 
+Mon Jun 13 06:47:22 2011 - Adding 'links.edit' feature to the 'Links Admin' group 
+Mon Jun 13 06:47:22 2011 - Adding 'links.moderate' feature to the 'Links Admin' group 
+Mon Jun 13 06:47:22 2011 - Adding 'links.submit' feature to the 'Links Admin' group 
+Mon Jun 13 06:47:22 2011 - Attempting to give all users in the Root group access to the 'links' Admin group 
+Mon Jun 13 06:47:22 2011 - Registering 'links' plugin 
+Mon Jun 13 06:47:22 2011 - Successfully installed the 'links' plugin! 
+2011年06月13日 星期一 06时55分13秒 - Attempting to install the mediagallery Plugin 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_albums table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_albums table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_config table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_config table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_media table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_media table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_mediaqueue table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_mediaqueue table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_media_albums table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_media_albums table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_media_album_queue table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_media_album_queue table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_playback_options table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_playback_options table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_usage_tracking table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_usage_tracking table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_userprefs table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_userprefs table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_watermarks table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_watermarks table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_session_items table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_session_items table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_session_items2 table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_session_items2 table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_session_log table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_session_log table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_sessions table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_sessions table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_category table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_category table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_sort table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_sort table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_postcard table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_postcard table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_rating table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_rating table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_exif_tags table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_exif_tags table 
+2011年06月13日 星期一 06时55分13秒 - Creating mg_watermark_data table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created mg_watermark_data table 
+2011年06月13日 星期一 06时55分13秒 - Creating exif_tag_data table 
+2011年06月13日 星期一 06时55分13秒 - Success - Created exif_tag_data table 
+2011年06月13日 星期一 06时55分13秒 - Inserting default data into tables 
+2011年06月13日 星期一 06时55分13秒 - Success - default data added to Media Gallery tables 
+2011年06月13日 星期一 06时55分13秒 - Success - inserting data into exif_tag_data table 
+2011年06月13日 星期一 06时55分13秒 - Attempting to create mediagallery admin group 
+2011年06月13日 星期一 06时55分13秒 - ...success 
+2011年06月13日 星期一 06时55分13秒 - Calling DB_insertID() 
+2011年06月13日 星期一 06时55分13秒 - ...success - group_id = 22 
+2011年06月13日 星期一 06时55分13秒 - About to save group_id to vars table for use during uninstall 
+2011年06月13日 星期一 06时55分13秒 - ...success 
+2011年06月13日 星期一 06时55分13秒 - Attempting to create mediagallery config group 
+2011年06月13日 星期一 06时55分13秒 - ...success 
+2011年06月13日 星期一 06时55分13秒 - Calling DB_insertID() 
+2011年06月13日 星期一 06时55分13秒 - ...success - cgroup_id = 22 
+2011年06月13日 星期一 06时55分13秒 - About to save cgroup_id to vars table for use during uninstall 
+2011年06月13日 星期一 06时55分13秒 - ...success 
+2011年06月13日 星期一 06时55分13秒 - Adding mediagallery.admin feature 
+2011年06月13日 星期一 06时55分13秒 - Success - feat_id = 39 
+2011年06月13日 星期一 06时55分13秒 - Adding mediagallery.admin feature to admin group 
+2011年06月13日 星期一 06时55分13秒 - Success 
+2011年06月13日 星期一 06时55分13秒 - Adding mediagallery.config feature 
+2011年06月13日 星期一 06时55分13秒 - Success - feat_id = 40 
+2011年06月13日 星期一 06时55分13秒 - Adding mediagallery.config feature to config group 
+2011年06月13日 星期一 06时55分13秒 - Success 
+2011年06月13日 星期一 06时55分13秒 - Attempting to give all users in Root group access to mediagallery admin group 
+2011年06月13日 星期一 06时55分13秒 - Success 
+2011年06月13日 星期一 06时55分13秒 - Attempting to give all users in Root group access to mediagallery config group 
+2011年06月13日 星期一 06时55分13秒 - Success 
+2011年06月13日 星期一 06时55分13秒 - Registering mediagallery plugin with Geeklog 
+2011年06月13日 星期一 06时55分13秒 - Succesfully installed the mediagallery Plugin! 
+2011年06月16日 星期四 16时18分13秒 - 错误，无效的用户名: 'sunge' 
+2011年06月16日 星期四 19时58分19秒 - Attempting to install the 'custommenu' plugin 
+2011年06月16日 星期四 19时58分19秒 - Attempting to create 'CustomMenu Admin' group 
+2011年06月16日 星期四 19时58分19秒 - Attempting to add 'custommenu' features 
+2011年06月16日 星期四 19时58分19秒 - Adding 'custommenu.admin' feature to the 'CustomMenu Admin' group 
+2011年06月16日 星期四 19时58分19秒 - Attempting to give all users in the Root group access to the 'custommenu' Admin group 
+2011年06月16日 星期四 19时58分19秒 - Registering 'custommenu' plugin 
+2011年06月16日 星期四 19时58分19秒 - Successfully installed the 'custommenu' plugin! 

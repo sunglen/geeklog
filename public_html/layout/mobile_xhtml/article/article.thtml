@@ -1,0 +1,5 @@
+{formatted_article}
+<div>{whats_related}</div>
+<div>{story_options}</div>
+<div>{trackback}</div>
+{commentbar}

@@ -1,0 +1,29 @@
+1.0.0b3 ～ 1.0.1 改善点 2008/09/14
+
+1.「日本語サンプル記事アンケート追加」を追加
+2.「初期ブロックタイトル」を日本語化と日本語化キャンセル追加
+3.ピング送信先に Googleブログ検索 テクノラティ 追加
+4.オリジナルアイコン設定
+5.public_html/disabledmsg.html　をpublic_html/disabledmsg.htmlに変更
+6.インストール時　lib-portalparts.php　存在チェック追加
+7.インストール時　lib-portalparts.php　存在チェック追加
+8.readmeja.txt 改定
+
+注1：version情報をversion.phpに移動しました
+注2：更新履歴ほかのドキュメントをdocに移動しました
+
+差替追加ファイル
+--------------------
+admin/index.php
+admin/settings.php
+language/japanese_utf-8.php
+public_html/images/japanize.png
+public_html/disabledmsg.html
+sql/sql_japanize_3.php
+sql/sql_japanize_6.php
+sql/sql_japanize_7.php
+sql/sql_japanize_107.php
+templates/admin/index.thtml
+templates/admin/settings.thtml
+functions.inc
+version.php

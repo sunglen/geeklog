@@ -1,0 +1,13 @@
+v1.02 2008-09-24
+    - Bugfix: phpautotags_topic() staticpage fix
+    - Bugfix: Clean input better when saving autotag
+    - Bugfix: Admin menus to work in Geeklog 1.5.
+v1.01 2007-03-08
+    - Bugfix: plugin_getListField_autotags() failed to allow php autotags to
+      be checked.
+    - Bugfix: stripslashes in plugin_autotags_autotags()
+    - Feature: Added lang autotag.
+
+v1.0  2006-11-26
+    - First public release
+

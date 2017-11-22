@@ -1,0 +1,6 @@
+
+<!-- menuitem.thtml { -->
+
+<li id="{menuitem_id}" class="menuitem {menuitem_class}"><a href="{menuitem_url}" class="{menuitem_class}">{menuitem_text}</a></li>
+
+<!-- } menuitem.thtml -->

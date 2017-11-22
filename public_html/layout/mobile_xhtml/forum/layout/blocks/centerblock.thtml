@@ -1,0 +1,9 @@
+<!-- start centerblock.thtml -->
+<!-- startblock -->
+<div style="width:100%;">
+<div style="widht:100%;color:#F5F9FF;text-align:center;background-color:#507AA1;"><b>{LANG_FORUM}</b></div>
+{block_records}
+</div>
+<hr{xhtml}>
+<!-- endblock -->
+<!-- end centerblock.thtml -->

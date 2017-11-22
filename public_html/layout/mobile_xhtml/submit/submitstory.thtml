@@ -1,0 +1,26 @@
+<form action="{site_url}/submit.php" method="post">
+  <div>{lang_username}:</div>
+  {story_username} [<a href="{status_url}" rel="nofollow">{lang_loginout}</a>{separator}{create_account}]
+  <br{xhtml}>
+  <div>{lang_title}:</div>
+  <input type="text" size="32" maxlength="96" name="title" value="{story_title}"{xhtml}>
+  <br{xhtml}>
+  <div>{lang_topic}:</div>
+  <select name="tid">
+    {story_topic_options}
+  </select>
+  <br{xhtml}>
+  <div>{lang_introtext}:</div>
+  <textarea name="introtext" cols="40" rows="8" style="font-size:small; width:95%">{story_introtext}</textarea>
+  <br{xhtml}>
+  <div>{lang_bodytext}:</div>
+  <textarea name="bodytext" cols="40" rows="8" style="font-size:small; width:95%">{story_bodytext}</textarea>
+  <br{xhtml}>
+  <input type="hidden" name="postmode" value="plaintext"{xhtml}>
+  <input type="hidden" name="type" value="story"{xhtml}>
+  <input type="hidden" name="uid" value="{story_uid}"{xhtml}>
+  <input type="hidden" name="sid" value="{story_sid}"{xhtml}>
+  <input type="hidden" name="date" value="{story_date}"{xhtml}>
+  {save_button}
+  <input name="mode" type="submit" value="{lang_preview}"{xhtml}>
+</form>

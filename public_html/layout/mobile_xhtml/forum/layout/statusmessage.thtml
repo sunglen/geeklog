@@ -1,0 +1,6 @@
+<!-- start statusmessage.thtml -->
+{autoredirect_javascript}
+{heading}<br{xhtml}>
+{message}<br{xhtml}>
+{prompt}<br{xhtml}>
+<!-- end statusmessage.thtml -->

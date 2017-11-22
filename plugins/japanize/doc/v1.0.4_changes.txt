@@ -1,0 +1,17 @@
+1.0.3 ～ 1.0.4 改善点 2009/09/02
+
+1.管理画面（更新）日本語メール関係の文言変更
+2.プラグイン名表記をjapanize からJapanize に変更
+3.更新時のテスト用行削除
+
+差替追加ファイル
+--------------------
+admin/index.php
+admin/install.php
+language/japanese_utf-8.php
+template/admin/index.thtml
+upgrade.inc
+autoinstall.php
+
+version.php
+

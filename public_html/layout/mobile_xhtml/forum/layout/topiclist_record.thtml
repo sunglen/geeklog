@@ -1,0 +1,11 @@
+<!-- start topiclist_record.thtml -->
+{folderimg}
+{moved}<a class="tooltip" style="text-decoration:none;" href="viewtopic.php?showtopic={topic_id}">{subject}</a><br{xhtml}>
+{topicinfo}
+{gotomsg}&nbsp;{displaypageslink}<br{xhtml}>
+{LANG_VIEWS}: {views}<br{xhtml}>
+{LANG_REPLIES}: {replies}<br{xhtml}>
+{LANG_BY}{lastposter}<br{xhtml}>
+{LANG_LASTPOST}: {lastdate}<br{xhtml}>
+<hr{xhtml}>
+<!-- end topiclist_record.thtml -->

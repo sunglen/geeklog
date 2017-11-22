@@ -1,0 +1,40 @@
+1.0.2 ～ 1.0.3 改善点 2009/08/26
+
+★注意★--------------------------------------------------------------------
+Gl1.6未満の日本語バージョンなどで、lib_custon.php 等で日本語メールを読
+み込んでいる場合は、
+require_once('custom/custom_mail_jp.php');　という行がある場合は
+この行をあらかじめ削除してください。
+残っている場合は
+Fatal error: Cannot redeclare custom_convertencoding() というエラーがでます
+----------------------------------------------------------------------------
+
+1.ppNavbar 分離
+　lib-portalparts.php より、ppNavbar抜粋
+2.アドバンストエディタ用．管理ユーザーが使ってもよいHTMLタグと属性．編集削除
+3.日本語メール同梱（geeklogｊｐ仕様の設定変更機能つき）
+4.autoinstall 追加
+
+差替追加ファイル
+--------------------
+lib/ppNavbar.php 追加
+admin/settings.php
+admin/information.php
+admin/index.php
+admin/japanize_functions.php
+template/admin/information.thtml
+template/admin/index.thtml
+sql/japanize_8.php
+sql/japanize_108.php
+sql/mysql_install.php
+updates/mysql_1.0.2_to_1.0.3.php
+functions.php
+language/japanese_utf-8.php
+admin/install.php
+autoinstall.php
+
+custom/custom_mail_japanize.php
+(custom_mail_jp.php Ver.2009-04-25 をベースに一部変更)
+
+version.php
+

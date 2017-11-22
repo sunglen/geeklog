@@ -1,0 +1,10 @@
+<form action="{site_url}/users.php" method="post">
+  {lang_message}  {lang_newreglink}<br{xhtml}>
+  <b><label for="loginname">{lang_username}</label>:</b><br{xhtml}>
+  <input type="text" size="16" name="loginname"{xhtml}><br{xhtml}>
+  <b><label for="passwd">{lang_password}</label>:</b><br{xhtml}>
+  <input type="password" name="passwd" size="16"{xhtml}><br{xhtml}>
+  <input type="submit" value="{lang_login}"{xhtml}><br{xhtml}>
+  <a href="{site_url}/users.php?mode=getpassword" rel="nofollow">{lang_forgetpassword}</a>
+</form>
+{openid_login}

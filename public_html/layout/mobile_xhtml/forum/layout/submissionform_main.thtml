@@ -1,0 +1,15 @@
+
+<!-- start submissionform_main.thtml -->
+{LANG_SUBJECT}:<br{xhtml}>
+<input type="text" name="subject" value="{subject}" id="input1" tabindex="5" size="80"{xhtml}><br{xhtml}>
+<textarea name="comment" id="input2" rows="10" cols="45" tabindex="6" class="post" style="font-size:small; width:95%">{post_message}</textarea>
+{captcha}
+{LANG_OPTIONS}<br{xhtml}>
+{notify_prompt}<br{xhtml}>
+{mode_prompt}<br{xhtml}>
+{locked_prompt}<br{xhtml}>
+{sticky_prompt}<br{xhtml}>
+{edit_prompt}<br{xhtml}>
+<input type="submit" name="preview" value="{LANG_PREVIEW}" tabindex="7"{xhtml}>
+<input type="submit" name="submit" value="{LANG_SUBMIT}" tabindex="8"{xhtml}>
+<!-- end submissionform_main.thtml -->

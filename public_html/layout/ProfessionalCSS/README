@@ -1,0 +1,581 @@
+/*==============================================================================
+  タイトル  : Geeklog用ProfessionalCSSテーマ
+  バージョン: 1.3 Geeklog1.7.0対応
+  著者      : Fumito Arakawa as Phize (http://phize.net/) & Geeklog Japanese
+  説明      : Geeklog用のテーマ「ProfessionalCSS」です。
+==============================================================================*/
+
+
+
+/*==============================================================================
+  目次:
+
+    *概要
+    *インストール方法
+    *ファイル・ディレクトリ構成
+    *テンプレートファイル: コメント
+    *CSS: CSSファイル構成・カスケード順序
+    *CSS: プロパティ記述順序
+    *カスタマイズ方法
+    *バージョン履歴
+==============================================================================*/
+
+
+
+/*==============================================================================
+  概要
+==============================================================================*/
+
+Geeklog用のテーマ「ProfessionalCSS」です。
+Geeklogの標準テーマである「Professional」のデザインを元に、
+table要素によるレイアウトを排除し、HTML 4.01 Transitional+CSS 2で一から全てを書き直しました。
+
+JavaScriptが有効な場合は、Geeklogのカラム数の構成によってbody要素のclass属性が書き換えられます。
+これにより、同一のテンプレートファイルのみでCSSによるマルチカラムレイアウトを実現できるようになります。
+JavaScriptが無効な場合は、body要素のclass属性は常に一定であるため、常に3カラムレイアウトとなります。
+
+新しいテーマを制作する際のベーステーマとしてもご利用いただけます。
+なお、システムとの整合性を保つため、マークアップ、命名規則等はGeeklog側に合わせている部分があります。
+
+
+
+/*==============================================================================
+  インストール方法
+==============================================================================*/
+
+「ProfessionalCSS」テーマのlayoutフォルダをGeeklogの公開ディレクトリにコピーします。
+
+                                   +Geeklog(公開ディレクトリ)
+  +layout            -- コピー -->   +layout
+    +ProfessionalCSS
+
+
+
+/*==============================================================================
+  ファイル・ディレクトリ構成
+==============================================================================*/
+
++layout -------------------- Geeklogテーマディレクトリ
+  +ProfessionalCSS --------- 「ProfessionalCSS」テーマディレクトリ
+    +admin
+    +article
+    +comment
+    +forum
+    +navbar
+    +preferences ----------- テンプレートファイル・ディレクトリ
+    +profiles
+    +search
+    +stats
+    +submit
+    +trackback
+    +users
+    +css ------------------- CSSディレクトリ
+    | |                        ディレクトリ構造はテンプレートファイルのディレクトリと対応しています。
+    | |
+    | +plugin -------------- プラグイン用CSSディレクトリ
+    |  |                       プラグイン用のCSSファイルが入っています。
+    |  +forum.css ---------- 掲示板プラグイン用CSSファイル
+    |                          Geeklog Japaneseパッケージのものを修正して使用しています。
+    |
+    +images ---------------- 画像ディレクトリ
+    | |
+    | +css ----------------- CSSファイル用画像ディレクトリ
+    |                          CSSで使用する画像ファイルが入っています。
+    |
+    +javascript ------------ JavaScriptディレクトリ
+    | |
+    | +fix_html.js --------- Geeklogのカラム数に応じてbody要素のclass属性を書き換えます。
+    |
+    +README ---------------- 「ProfessionalCSS」テーマのドキュメント(このファイル)
+    |
+    +style.css ------------ CSSファイルのインポート用CSSファイル
+    |
+    +custom.css ----------- カスタマイズ用CSSファイル
+    |
+    +custom.sample.css ---- カスタマイズ用CSSファイル(サンプル)
+
+
+
+/*==============================================================================
+  テンプレートファイル: コメント
+==============================================================================*/
+
+テンプレート(.thtml)ファイルには下記のコメントを挿入しています。
+
+  ・テンプレートファイル名
+    全てのテンプレートファイルの先頭と末尾にテンプレートファイル名を挿入しています。
+
+      <!-- ディレクトリ名/ファイル名.thtml { -->
+                          (内容)
+      <!-- } ディレクトリ名/ファイル名.thtml -->
+
+特定バージョンのGeeklog用に記述されている箇所には、下記の形式でコメントを挿入しています。
+
+　・Geeklog Japanese
+      <!-- Geeklog Japanese -->
+              または、
+      <!-- Geeklog Japanese { -->～<!-- } Geeklog Japanese -->
+
+　・Ver.x.x.xより大きい
+      <!-- Geeklog GT x.x.x -->
+              または、
+      <!-- Geeklog GT x.x.x { -->～<!-- } Geeklog GT x.x.x -->
+
+　・Ver.x.x.x以上
+      <!-- Geeklog GTE x.x.x -->
+              または、
+      <!-- Geeklog GTE x.x.x { -->～<!-- } Geeklog GTE x.x.x -->
+
+　・Ver.x.x.x
+      <!-- Geeklog x.x.x -->
+              または、
+      <!-- Geeklog x.x.x { -->～<!-- } Geeklog x.x.x -->
+
+　・Ver.x.x.x以下
+      <!-- Geeklog LTE x.x.x -->
+              または、
+      <!-- Geeklog LTE x.x.x { -->～<!-- } Geeklog LTE x.x.x -->
+
+　・Ver.x.x.xより小さい
+      <!-- Geeklog LT x.x.x -->
+              または、
+      <!-- Geeklog LT x.x.x { -->～<!-- } Geeklog LT x.x.x -->
+
+
+
+/*==============================================================================
+  CSS: CSSファイル構成・カスケード順序
+==============================================================================*/
+
++style.css -------------------------- header.thtml内のlink要素によって読み込まれます。
+  +css/default.css ------------------ デフォルトスタイル
+                                        W3CによるCSS 2.1 仕様書 Appendix Dの推奨デフォルトスタイルで上書きします(一部を除く)。
+                                        URI: http://www.w3.org/TR/2004/CR-CSS21-20040225/sample.html
+  +css/common.css ------------------- 共通スタイル
+                                        サイト全体のスタイルです。
+
+  +css/layout.css ------------------- 基本レイアウトスタイル
+
+  +css/block.css -------------------- ブロックスタイル
+  +css/option.css ------------------- オプションメニュースタイル
+  +css/form.css --------------------- フォームスタイル
+  +css/story.css -------------------- 記事スタイル
+
+  +css/article/article.css ---------- 個別記事ページスタイル
+  +css/comment/comment.css ---------- コメントスタイル
+  +css/navbar/navbar.css ------------ ナビゲーションスタイル
+  +css/preferences/preferences.css -- 設定ページスタイル
+  +css/search/search.css ------------ 検索ページスタイル
+  +css/stats/stats.css -------------- アクセス情報ページスタイル
+  +css/submit/submit.css ------------ 投稿ページスタイル
+  +css/trackback/trackback.css ------ トラックバックスタイル
+  +css/users/users.css -------------- アカウント情報ページスタイル
+
+  管理者ページスタイルシート
+  +css/admin.css -------------------- インポート用スタイルシート(管理者ページ)
+    +css/admin/common.css ----------- 共通スタイル(管理者ページ)
+    +css/admin/block.css ------------ ブロックエディタスタイル(管理者ページ)
+    +css/admin/event.css ------------ イベントエディタスタイル(管理者ページ)
+    +css/admin/group.css ------------ グループエディタスタイル(管理者ページ)
+    +css/admin/lists.css ------------ リストスタイル(管理者ページ)
+    +css/admin/moderation.css ------- 管理画面スタイル(管理者ページ)
+    +css/admin/plugins.css ---------- プラグインページスタイル(管理者ページ)
+    +css/admin/story.css ------------ 記事エディタスタイル(管理者ページ)
+    +css/admin/topic.css ------------ 話題エディタスタイル(管理者ページ)
+    +css/admin/trackback.css -------- トラックバックページスタイル(管理者ページ)
+    +css/admin/user.css ------------- ユーザエディタスタイル(管理者ページ)
+    +css/admin/configuration.css ---- コンフィギュレーションエディタスタイル(管理者ページ)
+
+  プラグインスタイルシート
+  +css/plugin.css ------------------- インポート用スタイルシート(プラグイン)
+    +css/plugin/sitecalendar.css ---- サイトカレンダスタイル(プラグイン)
+    +css/plugin/japanize.css ----------- Japanizeスタイル(プラグイン)
+
+  カスタムテーマスタイルシート
+  +custom.css ----------------------- カスタムテーマスタイルシート
+                                      サンプルとして、custom.sample.cssを同梱しています。
+
+
+
+/*==============================================================================
+  CSS: プロパティ記述順序
+==============================================================================*/
+
+一部の例外を除き、CSSのプロパティは下記の順序で記述されています。 
+
+  *display
+  *visibility
+  *overflow
+  *list-style
+  *position
+  *float
+  *clear
+  *top right bottom left
+  *width
+  *height
+  *margin
+  *padding
+  *border
+  *background
+    color
+    image
+    repeat
+    position
+    attachement
+  *color
+  *font
+    style
+    variant
+    weight
+    size
+    line-height
+    family
+  *text-decoration
+  *text-align
+  *vertical-align
+  *white-space
+  *other text
+  *quotes
+  *content
+
+
+
+/*==============================================================================
+  カスタマイズ方法
+==============================================================================*/
+
+ProfessionalCSSテーマでは、表現に関する制御をCSSで行っているため、テンプレートファイルに手を加えることなく、簡単にテーマをカスタマイズすることができます。
+基本的なレイアウト・デザインは、下記のCSSファイル内で定義されたスタイルを変更するだけでカスタマイズが行えるようになっています。
+
+  +css ------------- CSSディレクトリ
+    +common.css ---- 共通スタイル
+    +layout.css ---- 基本レイアウトスタイル
+    +block.css ----- ブロックスタイル
+    +option.css ---- オプションメニュースタイル
+    +form.css ------ フォームスタイル
+    +story.css ----- 記事スタイル
+
+ProfessionalCSSテーマをベースにしたカスタマイズを行うには、上記や「CSS: CSSファイル構成・カスケード順序」のCSSファイルを直接、編集するほかに、別途、専用のCSSファイルを用意してカスタマイズする方法があります。
+特に理由がない場合には、ProfessionalCSSテーマのバージョンアップにも対応できるように、専用のCSSファイル(custom.css)を利用する方法をおすすめいたします。
+
+  ・専用のCSSファイル(custom.css)を利用したカスタマイズ
+    この方法は、カスタマイズ部分を専用のCSSファイル(custom.css)に分離するため、ProfessionalCSSテーマに変更があった場合でも柔軟に対応できるとともに、カスタマイズしたテーマの保守・管理性も高まります。
+    CSSの特徴であるカスケードを活かしたカスタマイズ方法です。
+
+      1. 各CSSファイルからカスタマイズする箇所をcustom.css内にコピー&ペーストします。
+      2. セレクタのみを残し、宣言(プロパティと値)を削除したあと、上書きしたいスタイルを記述していきます。
+
+    サンプルとして、custom.sample.cssを同梱しています。
+    既存のcustom.cssを削除して、ファイル名をcustom.sample.cssからcustom.cssへ変更すれば、そのままカスタマイズのベースとして利用できます。
+    なお、custom.cssから呼ばれる画像はimages/css/ではなく、images/custom/に置くことをおすすめします。
+
+カスタマイズにあたっては、下記の方法でカスタマイズするファイルを特定することができます。
+
+  ・ブラウザ等に表示されたページからカスタマイズ箇所を知りたい場合
+    ブラウザから「ソースを表示」に該当するメニューを選択してください。
+    あるいは、対象となる範囲をドラッグで選択した後、「選択範囲のソースを表示」に該当するメニューを選択してください。
+    表示されたソース内に、使用されているテンプレート(.thtml)ファイル名がコメントとして挿入されています。
+
+  ・テンプレートファイルに関連するCSSファイルを知りたい場合
+    CSSファイル内の冒頭にあるコメントの「適用先」をご覧下さい。
+    スタイルの適用先となるテンプレート(.thtml)ファイルを記述しています。
+
+
+
+/*==============================================================================
+  バージョン履歴
+==============================================================================*/
+
+「ProfessionalCSS」テーマのバージョン履歴です。
+更新・追加・削除対象となったディレクトリ・ファイルは丸括弧内に記載しています。
+ディレクトリ・ファイル名の前に記載された記号の意味は下記の通りです。
+
+  * 更新
+  + 追加
+  - 削除
+
+
+■Ver.1.3(2010-08-14)
+　・fieldset legendに標準的なスタイルを追加し、タイトルが2度読みになる箇所(class="basic"が指定された箇所)のfieldset,legendのスタイルをすべて非表示に設定しました。
+　・OpenID用ログインフォームが表示されないのを修正しました。users/loginform.thtmlへ{openid_login}を追加しました。
+　・common.cssのinput,select,textareaで日本語のフォントスタイルを追加しました。コメントの英語化をコミットする際に変更しなくても良いfont-familyを変更していました。
+　・legendが非表示になる初期設定を廃止しました。
+　・IE専用のワード途中で折り返しさせるスタイル th,td{word-break: break-all;}を削除して、折り返しなしのデフォルトに戻しました。
+　・submit/submitloginrequired.thtmlは不要になったので削除しました。
+　・右ブロックのヘルプアイコンのセレクタを修正しました。
+　・css/compatible.css で、画像ファイルのリンクエラーを修正しました。
+　・css/default.cssの、url(../javavscript/iepngfix.htc)をコメントアウトしていましたが、これを削除しました。
+　・images/update.pngを追加しました。
+
+■Ver.1.2(2010-05-10)
+　・Geeklog1.7.0に対応させました。
+　　　メタタグ無効時の非表示、プロファイルでアドバンストエディタ利用チェックボックス追加等
+　・記事編集時、日本語言語ファイル利用時用に以下のテンプレートを追加
+　　　1)admin/story/storyeditor.japanese_utf-8.thtml
+　　　2)admin/story/storyeditor_advanced.japanese_utf-8.thtml
+
+■Ver.1.1(2009-11-11)
+　・Geeklog1.6.1に対応させました。
+　　　メタタグ追加、日本語専用記事編集テンプレート追加、メールに自分へのコピー追加等
+
+■Ver.1.04(2009-02-26)
+　・IE6で画面が表示されなくなるため、アルファチャンネル付きPNGの表示を無効にしました。(*css/default.css)
+
+■Ver.1.03(2008-12-22)
+　・IE6でアルファチャンネル付きのPNGを表示できるように修正しました。(*css/default.css)
+
+■Ver.1.02(2008-09-15)
+　・Japanizeプラグインに対応しました。(+css/plugin/japanize.css, *css/plugin.css)
+　・fieldset要素のボーダー色をグレーに変更しました。(*css/admin/configuration.css, *css/admin/group.css, *css/admin/story.css, *css/preferences/preferences.css)
+
+■Ver.1.01(2008-07-01)
+　・Geeklog 1.5に合わせて、ファイルを追加・修正・削除しました。
+　・未使用のCSSファイルを削除しました。
+
+■Ver.1.00(2007-10-22)
+  ・表(table)のセル内のテキストの垂直位置を中央寄せから上付きに修正しました。(*css/default.css)
+  ・CSSファイルからWin IE 5.5以下、Mac IE用の記述を削除しました。(*css/common.css, *css/layout.css, *css/comment/comment.css, *css/navbar/navbar.css)
+  ・カスタマイズ用CSSファイルの雛型のファイル名を「_custom.css」から「custom.sample.css」に変更しました。(-_custom.css, +custom.sample.css)
+  ・カスタマイズ用CSSファイル(custom.css)を標準で読み込むように修正しました。(*style.css, +custom.css)
+  ・文字エンコーディングがShift JISになっていたファイルをUTF-8に修正しました。(*css/plugin.css, *css/plugin/forum.css)
+  ・JavaScriptがグローバル名前空間を汚染しないように修正しました。(*preferences/profile.thtml)
+  ・テンプレート変数のタグ抜けを修正しました。(*admin/story/storyeditor_advanced.thtml)
+  ・アドバンストエディタの全画面エディタに対応しました(それに伴い、レイアウトを変更しました)。(*header.thtml, *css/layout.css, -images/css/bg_logo.gif, +images/logo.gif, *images/css/bg_navigation.gif)
+  ・デバッグ用CSSファイルを削除しました。(*style.css, -css/debug.css)
+  ・CSSのプロパティをショートハンドプロパティに纏めました。(*css/layout.css, *css/block.css, *css/common.css, *css/form.css, *css/admin/group.css, *css/admin/lists.css, *css/admin/plugins.css, *css/comment/comment.css, *css/navbar/navbar.css, *css/plugin/forum.css, *css/plugin/sitecalendar.css, *css/search/search.css, *css/trackback/trackback.css
+
+
+■Ver.0.99.3(2007-08-13)
+  ・掲示板プラグインの管理画面で、入力フォームがはみ出す不具合を修正しました。(*forum/layout/admin/boards_edtcategory.thtml, *forum/layout/admin/boards_edtforum.thtml)
+
+
+■Ver.0.99.2(2007-07-06)
+  ・掲示板プラグインで、カテゴリの編集・削除等ができない不具合(不正なformタグ)を修正しました。(*forum/layout/admin/board_categories.thtml, *forum/layout/admin/board_forums.thtml, *forum/layout/admin/moderators.thtml, *userprefs/user_settings.thtml)
+
+
+■Ver.0.99.1(2007-06-12)
+  ・記事・注目記事のナビゲーションからワード数の表示を削除しました。(*storytext.thtml, *featuredstorytext.thtml)
+  ・検索ページのフォームで、「タイプ」のセレクトボックスに空行が含まれてしまう不具合を修正しました。(*search/searchform.thtml)
+  ・Operaでマイアカウントページのタブが切り替わらない不具合を修正しました。(*javascript/fix_html.js)
+  ・テーブルのセルの内容を幅に合わせて折り返すようにしました(IEのみ)。(*css/default.css)
+  ・子セレクタ・隣接兄弟セレクタの結合子(>, +)の前後の半角スペースを削除しました。(*css/default.css, *css/plugin/sitecalendar.css, *css/submit/submit.css)
+  ・マイアカウントページの個人情報フィールドで、ID属性値が重複していたのを修正しました。(*preferences/profile.thtml)
+  ・マイアカウントページのコメント表示フィールドで、label要素に不適切なfor属性値が指定されていたのを修正しました。(*preferences/excludeblock.thtml)
+  ・Win IE 6以下用の規則集合を一部削除、宣言の解釈バグを利用した対策方法に変更しました。(*css/layout.css)
+  ・タグの記述ミス(「<p />」)を修正しました。(*forum/layout/topic.thtml, *forum/layout/topicfooter.thtml, *forum/layout/topicfooter_preview.thtml, *forum/layout/admin/board_categories.thtml, *forum/layout/admin/header.thtml, *forum/layout/admin/settings.thtml, *forum/layout/footer/footer.thtml, *forum/layout/reports/notifications.thtml)
+
+
+■Ver.0.99(2007-05-21)
+  ・投稿管理画面・ブロック管理画面で、フォームが正常に機能しない不具合を修正しました。(*admin/lists/list.thtml)
+  ・コメント部分で不正なHTMLが出力されていたのを修正しました。(*comment/comment.thtml, *css/comment/comment.css)
+  ・掲示板プラグインで、マウスオーバー時にリンク以外の場所が反応する不具合を修正しました。(*css/plugin/forum.css)
+  ・掲示板プラグインにstyle属性の記述ミスがあったのを修正しました。(*forum/layout/submissionform_code.thtml)
+  ・サイトカレンダプラグインに、dengen氏版で追加された機能のスタイルを追加しました。(*css/plugin/sitecalendar.css)
+  ・テンプレートファイル内のコメントが誤っていたのを修正しました。(*admin/lists/list.thtml)
+  ・CSSファイル内のコメントが誤っていたのを修正しました。(*css/block.css)
+
+
+■Ver.0.98.1(2007-04-04)
+  ・記事の本文が短い場合に、カテゴリアイコンにナビゲーションリンクが回り込んで表示されてしまう不具合を修正しました。(*css/story.css)
+  ・掲示板プラグインのテンプレートファイルをVer.2.6 Final(RC5)に合わせて修正しました。(*forum/layout/topic.thtml, *forum/layout/topiclisting.thtml, *forum/layout/admin/board_categories.thtml, *forum/layout/blocks/block_displayline.thtml, *forum/layout/block/centerblock_displayline.thtml, *forum/layout/links/markread.thtml, *forum/layout/links/newposts.thtml)
+
+
+■Ver.0.98(2007-03-26)
+  ・検索フォームのinput要素でvalue属性が抜けていたのを修正しました。(leftblocks.thtml)
+  ・iframe要素が原因で、中央ブロックにスクロールバーが表示されることがある不具合を修正しました。(css/common.css)
+  ・掲示板プラグインのテンプレートファイルをVer.2.6 RC4以上に合わせて修正しました。(*forum/layout/admin/boards_edtforum.thtml, *forum/layout/admin/migratestories.thtml, *forum/layout/admin/ranksetting_option.thtml)
+  ・掲示板プラグインのテンプレートファイルにタグ抜け・文法ミスがあったのを修正しました。(forum/forum_search.thtml, forum/post_topic_navbar.thtml, forum/topic_navbar.thtml)
+  ・Win IE 6以下で、掲示板プラグインのiframe要素が崩れる不具合を修正しました。(javascript/fix_html.js)
+
+
+■Ver.0.97.1(2007-03-19)
+  ・掲示板プラグインで、iframe要素の内容が中央寄せになる不具合を修正しました。(*css/plugin/forum.css)
+
+
+■Ver.0.97(2007-03-10)
+  ・掲示板プラグインが中央ブロックからはみ出す不具合を修正しました。(*forum/layout/categorylisting.thtml, *forum/layout/post_topic_navbar.thtml, *forum/layout/submissionform_main.thtml, *forum/layout/topiclisting.thtml, *forum/layout/topic_navbar.thtml, *css/plugin/forum.css)
+  ・管理画面のアイコンが表示されない不具合を修正しました。(*admin/lists/topmenu_nosearch.thtml)
+  ・管理画面で申請の承認・削除が行えない不具合を修正しました。(*admin/lists/list.thtml)
+  ・アドバンストエディタでユーザによる記事投稿ができない不具合を修正しました。(*submit/submitstory_advanced.thtml)
+  ・ブロックタイトルに表示されるヘルプアイコンの位置を調整しました。(*css/block.css)
+  ・基本レイアウトスタイルシートに幅の計算方法をコメントとして追加しました。(*css/layout.css)
+
+
+■Ver.0.96(2007-03-04)
+  ・カスタマイズ用に、基本的なスタイルを初期化するCSSファイルを追加しました。(+_custom.css)
+  ・メールアドレスの入力フィールドの長さ(size属性値)を統一しました。(*users/getpasswordform.thtml, registrationform.thtml)
+
+
+■Ver.0.95.2(2007-02-23)
+  ・アドバンストエディタが起動しない不具合を修正しました。(*advanced_editor_header.thtml)
+  ・左ブロック・右ブロックのヘルプアイコンが表示されない不具合を修正しました。(*blockheader-left.thtml, *blockheader-right.thtml)
+  ・ナビゲーションバーのレイアウトが崩れることがある不具合を修正しました。(*css/navbar/navbar.css)
+  ・Win IE 6以下で、記事の編集ページにスクロールバーが表示される不具合を修正しました。(*css/admin/story.css)
+  ・Win IE 6以下で、マイアカウントページにスクロールバーが表示される不具合を修正しました。(*css/preferences/preferences.css)
+
+
+■Ver.0.95.1(2007-02-19)
+  ・カスタムテーマのCSSファイル用に@import規則をコメントアウトした状態で追記しました。(*style.css)
+  ・多言語切り替えフォームが左右ブロックからはみ出す不具合を修正しました(属性セレクタ未対応のUAは修正不可能)。(*css/common.css)
+  ・Win IEで、掲示板プラグインの前後に不要な文字列が表示される不具合を修正しました。(*forum/layout/blocks/centerblock.thtml)
+  ・一部のUAでtable要素のalign/valign属性が無効になる不具合を修正しました。(*css/default.css)
+
+
+■Ver.0.95(2007-02-14)
+  ・Win IE 6以下で、右ブロックの要素の一部が重複して表示される不具合を修正しました。(*header.thtml)
+  ・ユーザーエージェントのキャッシュを有効にするように変更しました。(*header.thtml
+  ・maxlength属性が「maxsize」になっていたのを修正しました。(*admin/trackback/pingbackform.thtml, *admin/trackback/serviceeditor.thtml, *admin/trackback/trackbackeditor.thtml)
+  ・その他、Geeklog 1.4.1のバージョンアップに伴って、下記のディレクトリ・ファイルを更新・追加・削除しました。
+
+    *更新ディレクトリ・ファイル
+      *header.thml
+      *style.css
+      *admin/block/blockeditor.thtml
+      *admin/block/defaultblockeditor.thtml
+      *admin/group/groupeditor.thtml
+      *admin/group/groupmembers.thtml
+      *admin/lists/field.thtml
+      *admin/lists/header.thtml
+      *admin/lists/list.thtml
+      *admin/lists/topmenu.thtml
+      *admin/story/storyeditor.thtml
+      *admin/story/storyeditor_advanced.thtml
+      *admin/trackback/pingbackform.thtml
+      *admin/trackback/serviceeditor.thtml
+      *admin/trackback/trackbackeditor.thtml
+      *admin/user/edituser.thtml
+      *comment/commentbar.thtml
+      *comment/commentform.thtml
+      *comment/commentform_advanced.thtml
+      *css/common.css
+      *css/layout.css
+      *css/admin.css
+      *css/preferences/preferences.css
+      *css/plugin/forum.css
+      *css/admin/common.css
+      *css/admin/group.css
+      *css/admin/lists.css
+      *css/admin/story.css
+      *css/admin/user.css
+      *navbar/menuitem.thtml
+      *preferences/boxesblock.thtml
+      *preferences/commentblock.thtml
+      *preferences/deleteaccount.thtml
+      *preferences/digestblock.thtml
+      *preferences/displayblock.thtml
+      *preferences/displayprefs.thtml
+      *preferences/excludeblock.thtml
+      *preferences/privacyblock.thtml
+      *preferences/profile.thtml
+      *preferences/theme.thtml
+      *preferences/userphoto.thtml
+      *profiles/contactauthorform.thtml
+      *profiles/contactuserform.thtml
+      *stats/sitestatics.thtml
+      *submit/submitloginrequired.thtml
+      *submit/submitstory.thtml
+      *submit/submitstoryadvanced.thtml
+      *user/loginform.thtml
+      *user/profile.thtml
+      *user/registrationform.thtml
+
+    +追加ディレクトリ・ファイル
+      +admin/common/
+      +admin/common/*.*
+      +admin/user/batchdelete.thtml
+      +admin/user/batchdelete_options.thtml
+      +css/navbar/
+      +css/navbar/*.*
+      +images/collapse.png
+      +images/expand.png
+      +images/icon_info.png
+      +navbar/breadcrumb_link.thtml
+      +navbar/breadcrumbs.thtml
+      +navbar/images/tableftI.gif
+      +navbar/images/tableftJ.gif
+      +navbar/images/tabrightI.gif
+      +navbar/images/tabrightJ.gif
+
+    -削除ディレクトリ・ファイル
+      -admin/event/
+      -admin/event/*.*
+      -calendar/
+      -calendar/*.*
+      -css/calendar/
+      -css/calendar/*.*
+      -css/admin/event.css
+      -images/collapse.gif
+      -images/expand.gif
+      -images/logo-bg.png
+      -images/buttons/
+      -images/buttons/*.*
+      -images/png/
+      -images/png/*.*
+      -submit/submitevent.thtml
+
+    ※掲示板プラグインのディレクトリ・ファイル(forum/, forum/*.*)は全て最新版に入れ替えました。
+
+
+■Ver.0.94(2006-12-19)
+  ・言語ファイルに合わせて、「Calendar」を表す単語を「カレンダ」に統一しました。(*calendar/calendar.thtml, *css/calendar/calendar.css)
+  ・記事タイトルがアイコンと重なってしまう不具合を修正しました。(*css/story.css)
+  ・Firefoxでoption要素の右端が途切れてしまう不具合を修正しました。(*css/common.css)
+  ・ブロックの内容によって、カラム落ちが発生することがある不具合を修正しました。(*css/common.css, *css/layout.css)
+
+
+■Ver.0.93.3(2006-12-09)
+  ・Win IE 6以下で、長いコメントがそのまま表示される不具合が残っていたのを修正しました。(*css/comment/comment.css)
+  ・IE 6以下での不具合に対処するため、pre要素のデフォルトスタイルを追加しました。(*css/common.css)
+
+
+■Ver.0.93.2(2006-12-08)
+  ・長いコメントがそのまま表示されるために見えなくなる不具合を修正しました。(*css/comment/comment.css)
+
+
+■Ver.0.93.1(2006-12-03)
+  ・掲示板プラグインの罫線に隙間が空く不具合を修正しました。(*css/common.css, *css/plugin/forum.css)
+
+
+■Ver.0.93(2006-11-21)
+　・Win IEで、1つの文書内ではCSSファイルが31個までしか認識されない仕様上の限界のため、掲示板プラグインのCSSファイルが認識されていなかった不具合を修正しました。(*style.css, +css/admin.css, +css/plugin.css)
+    これに伴い、下記のCSSファイルを追加しました。
+    管理者ページ・プラグイン用の各CSSファイルは、下記のCSSファイル内でインポートされるようになりました。
+      +css/admin.css -- インポート用スタイルシート(管理者ページ)
+      +css/plugin.css - インポート用スタイルシート(プラグイン)
+
+  ・Powered by表示が「Geeklog Japanes」になっていたのを修正しました。(*footer.thtml)
+  ・ナビゲーションバーのテンプレートファイル内のコメントが間違っていたのを修正しました。(*navbar/navbar.thtml)
+  ・不要なCSSファイルが含まれていたのを削除しました。(-css/plugin/style_forum.css)
+  ・CSSの文法ミスを修正しました(*css/default.css, *css/plugin/forum.css)
+  ・掲示板プラグインのCSSファイル内のコメントが文字化けしていたのを修正しました。(*css/plugin/forum.css)
+  ・掲示板プラグインのCSSを、他のCSSのコーディングスタイルに合わせて整形しました。(*css/plugin/forum.css)
+  ・掲示板プラグインでナビゲーションバー以下が崩れる不具合を修正しました。(*css/plugin/forum.css)
+  ・Win IEで、掲示板プラグインの罫線が乱れる不具合を修正しました。(*forum/layout/forum_outline_header.thtml, *forum/layout/forum_outline_footer.thtml)
+  ・Win IEで、HTMLの文法ミスが原因で発生していた掲示板プラグインのボタンが乱れる不具合を修正しました。(*forum/layout/links/email.thtml, *forum/layout/links/edittopic.thtml, *forum/layout/links/pm.thtml, *forum/layout/links/profile.thtml, *forum/layout/links/quotetopic.thtml, *forum/layout/links/website.thtml)
+
+
+■Ver.0.92(2006-11-16)
+  ・コメントバー内のリンクのマージンを調整しました。(*css/comment/comment.css)
+  ・Win IE 6以下で、アカウント情報ページが表示されない不具合を修正しました。(*css/users/users.css)
+  ・ユーザの氏名が登録されていない場合に、アカウント情報ページの「ユーザ名」の後が「()」のみになる不具合を修正しました。(*users/profile.thtml)
+  ・Geeklog Japanese用にテンプレート変数を「prof_url」から{prof_url_jp」へ、「welcome_msg」から「welcome_msg_jp」へと変更しました。(*header.thtml)
+
+
+■Ver.0.91(2006-10-31)
+  ・IEのバグが原因で発生していた下記の不具合への対策を行いました。
+      *左下に右ブロックの要素の一部が重複して表示される。(*footer.thtml, *leftblocks.thtml, *rightblocks.thtml)
+      *ログイン要求ページでシステムメッセージの下に枠線が表示される。(*footer.thtml, *leftblocks.thtml, *rightblocks.thtml)
+      *サイトカレンダに一部のスタイルが適用されない。(*css/plugin/sitecalendar.css)
+      *カレンダ・検索ページ等の浮動要素を含むコンテンツが表示されない。(*css/calenda/calendar.css)
+  ・sitecalendar.cssの文字コードがShift-JISだったのをUTF-8に変換しました。(*css/plugin/sitecalendar.css)
+  ・IEでのカラム落ちを極力抑えるためにサイトカレンダのスタイルを調整しました。(*css/plugin/sitecalendar.css)
+  ・全てのディレクトリ内にindex.htmlを追加しました。
+  ・その他、微調整を行いました。
+
+
+■Ver.0.90(2006-10-30)
+  ・ベータ版
+  ・Win IE 6以下で下記の不具合が発見されています。
+      *左下に右ブロックの要素の一部が重複して表示される。
+      *サイトカレンダに一部のスタイルが適用されない。
+      *カレンダ・検索ページ等の浮動要素を含むコンテンツが表示されない。

@@ -1,0 +1,16 @@
+
+{navbreadcrumbsimg}&nbsp;<a href="{site_url}/forum/index.php">{forum_home}</a>&nbsp;&#62;&nbsp;<a href="{site_url}/forum/index.php">{cat_name}</a>&nbsp;&#62;&nbsp;<a href="{site_url}/forum/index.php?forum={forum_id}">{forum_name}</a><br{xhtml}>
+{navtopicimg}&nbsp;<b><a href="viewtopic.php?showtopic={topic_id}">{subject}</a></b>
+<hr{xhtml}>
+<form action="{phpself}" method="post" name="forumpost" style="margin:0px;">
+<div>
+    <input type="hidden" name="forum" value="{forum_id}"{xhtml}>
+    <input type="hidden" name="id" value="{hidden_id}"{xhtml}>
+    <input type="hidden" name="modedit" value="{hidden_modedit}"{xhtml}>
+    <input type="hidden" name="method" value="{hidden_method}"{xhtml}>
+    <input type="hidden" name="editpost" value="{hidden_editpost}"{xhtml}>
+    <input type="hidden" name="editpid" value="{hidden_editpid}"{xhtml}>
+    <input type="hidden" name="editid" value="{hidden_editid}"{xhtml}>
+    <input type="hidden" name="page" value="{page}"{xhtml}>
+    <input type="hidden" name="{gltoken_name}" value="{gltoken}"{xhtml}>
+</div>

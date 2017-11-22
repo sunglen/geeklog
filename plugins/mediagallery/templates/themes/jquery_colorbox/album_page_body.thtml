@@ -1,0 +1,31 @@
+<script type="text/javascript">
+$(function() {
+  $.ajax({
+    url: "{site_url}/album_items.php?aid={album_id}",
+    async: true,
+    cache: false,
+    dataType: "xml",
+    success: function(xml) {
+      $(xml).find("item").each(function(i){
+        var src = $(this).find('url').text();
+        var tnsrc = $(this).find('tnurl').text();
+        var tncropsrc = $(this).find('tncropurl').text();
+        var title = $(this).find('title').text();
+        var desc = $(this).find('desc').text();
+        $('#mg_colorbox .contents').append('<div class="thumb"><a href="' + src + '" rel="example1">'
+         + '<img src="' + tncropsrc + '" alt="' + title + '"></'+'a>'
+//       + '<div class="title">' + title + '</'+'div>'
+         + '</'+'div>'
+         );
+      });
+      $("a[rel='example1']").colorbox();
+      $("a[rel='example2']").colorbox();
+    }
+  });
+});
+</script>
+<div id="mg_colorbox">
+<div class="header"></div>
+<div class="contents"></div>
+<div class="footer"></div>
+</div>

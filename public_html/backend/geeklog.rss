@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rss version="2.0" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Geeklog Site</title>
+<link>http://www.aisee.co</link>
+<description>Another Nifty Geeklog Site</description>
+<managingEditor>admin@aisee.co</managingEditor>
+<webMaster>admin@aisee.co</webMaster>
+<copyright>Copyright 2011 I.C.K.工作室</copyright>
+<generator>Geeklog</generator>
+<pubDate>Mon, 13 Jun 2011 07:20:50 +0800</pubDate>
+<language>en-gb</language>
+<atom:link href="http://www.aisee.co/backend/geeklog.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>～欢迎使用Geeklog～</title>
+<link>http://www.aisee.co/article.php?story=welcome</link>
+<guid isPermaLink="true">http://www.aisee.co/article.php?story=welcome</guid>
+<pubDate>Mon, 13 Jun 2011 06:46:42 +0800</pubDate>
+<comments>http://www.aisee.co/article.php?story=welcome#comments</comments>
+<dc:subject>Geeklog</dc:subject>
+<description>&lt;p&gt;似乎已经顺利安装好了哦。恭喜恭喜。可以的话，请浏览一遍&lt;a href=&quot;docs/japanese/index.html&quot;&gt;docs 目录&lt;/a&gt;下的全部文档。Geeklog是一个以用户为中心的安全模范的实现。您必须理解该构造以便管理和运用Geeklog系统。&lt;/p&gt;&lt;p&gt;请使用下面的帐号登录系统:&lt;/p&gt;&lt;p&gt;用户名: &lt;strong&gt;Admin&lt;/strong&gt;&lt;br /&gt;密码: &lt;strong&gt;password&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;登录後请不要忘记&lt;a href=&quot;http://www.aisee.co/usersettings.php?mode=edit&quot;&gt;更改密码&lt;/a&gt;。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;本简体字中文版本，由日本语版本汉语化得到。&lt;/p&gt;&lt;p&gt;Geeklog的日本支援站点是&lt;a href=&quot;http://www.geeklog.jp&quot;&gt;Geeklog Japanese&lt;/a&gt;。在&lt;a href=&quot;http://wiki.geeklog.jp&quot;&gt;Geeklog Wiki文档&lt;/a&gt;里有如何改变网站面貌等额外的文档可供参考。&lt;/p&gt;
+ ...</description>
+<trackback:ping>http://www.aisee.co/trackback.php?id=welcome</trackback:ping>
+</item>
+</channel>
+</rss>

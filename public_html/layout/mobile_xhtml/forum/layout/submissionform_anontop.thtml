@@ -1,0 +1,6 @@
+
+<!-- start submissionform_anontop.thtml -->
+<b>{post_message}</b><br{xhtml}>
+{LANG_NAME}<br{xhtml}>
+<input type="text" name="aname" value="{name}" size="40" maxlength="50" tabindex="1"{xhtml}><br{xhtml}>
+<!-- end submissionform_anontop.thtml -->

@@ -1,0 +1,8 @@
+
+<!-- start centerblock_displayline.thtml -->
+<div class="pluginRow{cssid}" style="width:100%; background-color:#eee; border-bottom:1px solid #ccc;">
+    <div>{LANG_FORUM}: <a href="{site_url}/forum/index.php?forum={forum_id}">{forum_name}</a></div>
+    <div>{LANG_TOPIC}: <a class="tooltip" style="text-decoration:none;" href="{site_url}/forum/viewtopic.php?showtopic={topic_id}">{topic_subject}</a></div>
+    <div>{LANG_LASTPOST}: <a class="tooltip" style="text-decoration:none;" href="{site_url}/forum/viewtopic.php?showtopic={topic_id}&amp;lastpost=true#{lastpostid}" rel="nofollow">{date}</a></div>
+</div>
+<!-- end centerblock_displayline.thtml -->

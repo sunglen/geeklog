@@ -1,0 +1,40 @@
+<script type="text/javascript">
+$(function() {
+  $.ajax({
+    url: "{site_url}/album_items.php?aid={album_id}",
+    async: true,
+    cache: false,
+    dataType: "xml",
+    success: function(xml){
+      $(xml).find("item").each(function(i){
+        var src = $(this).find('url').text();
+        var tnsrc = $(this).find('tnurl').text();
+        var tncropsrc = $(this).find('tncropurl').text();
+        var title = $(this).find('title').text();
+        var desc = $(this).find('desc').text();
+        $('.ad-thumb-list').append('<li><a href="' + src + '">'
+          + '<img src="' + tncropsrc + '" class="image' + i + '" title="' +title
+          + '" longdesc="' +desc + '" width="60px" height="60px" /></a></li>');
+      });
+      $('.ad-gallery').adGallery({
+        loader_image: '{site_url}/ad-gallery/loader.gif',
+        width: 640,
+        height: 480,
+        slideshow: {speed: 3000}
+      });
+    }
+  });
+});
+</script>
+  <div id="ad-gallery" class="ad-gallery">
+    <div class="ad-image-wrapper">
+    </div>
+    <div class="ad-controls">
+    </div>
+    <div class="ad-nav">
+      <div class="ad-thumbs">
+        <ul class="ad-thumb-list">
+        </ul>
+      </div>
+    </div>
+  </div>

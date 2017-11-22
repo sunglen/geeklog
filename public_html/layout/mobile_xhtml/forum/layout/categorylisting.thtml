@@ -1,0 +1,10 @@
+
+<!-- start categorylisting.thtml -->
+{forumindeximg}&nbsp;{cat_name}<br{xhtml}>
+{cat_desc}<br{xhtml}>
+{newposts_link}<br{xhtml}>
+{markread_link}<br{xhtml}>
+<hr{xhtml}>
+{forum_records}
+
+<!-- end categorylisting.thtml -->

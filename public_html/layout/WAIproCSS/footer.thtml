@@ -1,0 +1,53 @@
+<!-- footer.thtml { -->
+</div>
+<!-- } centerblocks -->
+    
+    <!--[if !IE]> Win IE 6のバグを回避するために条件コメントを使用しています。 <![endif]-->
+    <!--[if !IE]> (複数の浮動要素を組み合わせた場合に、最後の浮動要素の内容が重複するバグ) <![endif]-->
+    <!--[if !IE]> } #centerblocks <![endif]-->
+<p class="skip"><a href="#right">跳过子菜单1至子菜单2</a></p>   
+ {left_blocks}
+
+</div>
+<!-- } carrier -->
+
+<p class="skip"><a name="right" id="right">从这里是子菜单2</a></p>
+<p class="skip"><a href="#bottom">跳过子菜单2至页脚</a></p>   
+    {right_blocks}
+</div>
+<!-- } #wrapper -->
+
+<hr class="separator"{xhtml}>
+
+  <!-- #footer { -->
+  <!-- フッタコンテナ -->
+<p class="skip"><a name="bottom" id="bottom">从这里是页脚</a></p>
+  <div id="footer">
+<p class="back"><a href="#top">返回页首</a></p>
+    <ul>
+      <li class="copyright_notice"><address>{copyright_notice}</address></li>
+      <li class="powered_by">{powered_by}&nbsp;<a href="http://geek.readjapan.info/">Geeklog中国</a>&amp;<a href="http://www.geeklog.jp/" accesskey="j">Geeklog Japanese</a></li>
+      <!-- Theme by Fumito Arakawa as Phize (http://phize.net/) -->
+      <!-- Accessibility Modifid by Masuko Koeda as みるく (http://white-stage.com/) アクセシビリティチェック by B-line (http://www.b-lines.jp/) -->
+      <li class="execution_textandtime">{execution_textandtime}</li>
+    </ul>
+  </div>
+  <!-- } #footer -->
+</div>  
+<!-- } #container -->
+
+
+<!-- 状況に応じて、HTMLのbody要素にclass属性値を指定するJavaScript
+     引数は左から、左ブロックコンテナ・中央ブロックコンテナ・右ブロックコンテナのid属性値 -->
+<script type="text/javascript">
+<!--
+  FixHTML('leftblocks', 'centerblocks', 'rightblocks');
+-->
+</script>
+
+{googleanalytics}
+
+<!-- } footer.thtml -->
+
+</body>
+</html>

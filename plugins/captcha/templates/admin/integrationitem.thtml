@@ -1,0 +1,6 @@
+<!-- admin/integrationitem.thtml { -->
+    <p>
+      <span class="label"><label for="{integration_name}" class="normal">{integration_label}</label></span>
+      <input type="checkbox" name="{integration_name}" id="{integration_name}" {integration_checked}{xhtml}>
+    </p>
+<!-- } admin/integrationitem.thtml -->

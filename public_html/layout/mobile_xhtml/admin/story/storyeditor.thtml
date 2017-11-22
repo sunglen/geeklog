@@ -1,0 +1,87 @@
+<form name="frmstory" action="{site_admin_url}/story.php" method="post" enctype="multipart/form-data">
+<div>
+
+    <div>{lang_author}: {story_author}<input type="hidden" name="uid" value="{story_uid}"{xhtml}></div>
+
+    <div>{lang_title}:</div>
+    <div><input type="text" size="32" maxlength="128" name="title" value="{story_title}"{xhtml}></div>
+    <div>{lang_page_title}:</div>
+    <div><input type="text" size="32" maxlength="128" name="page_title" value="{page_title}"{xhtml}></div>
+    <div>{lang_topic}:</div>
+    <div>
+        <select name="tid">
+            {topic_options}
+        </select>
+    </div>
+    <div>{lang_sid}:</div>
+    <div><input type="text" dir="ltr" size="32" maxlength="40" name="sid" value="{story_id}"{xhtml}></div>
+    <div>{lang_introtext}:</div>
+    <div><textarea name="introtext" cols="40" rows="8" style="font-size:8.5pt; width:95%">{story_introtext}</textarea></div>
+    <div>{lang_bodytext}:</div>
+    <div><textarea name="bodytext" cols="40" rows="8" style="font-size:8.5pt; width:95%">{story_bodytext}</textarea></div>
+    <div>{lang_postmode}: <select name="postmode">{post_options}</select></div>
+
+    <div>{lang_draft}: <input type="checkbox" name="draft_flag" {is_checked}{xhtml}></div>
+    <div>{lang_mode}:</div>
+    <div>
+        {featured_options}
+    </div>
+    <div><select name="frontpage">
+        {frontpage_options}
+    </select></div>
+    <div><select name="commentcode">
+       {comment_options}
+    </select></div>
+    <div><select name="trackbackcode">
+        {trackback_options}
+    </select></div>
+
+    <div><label for="admin-storyeditor-publish_month">{lang_date}: </label></div>
+    <div>
+      <select name="publish_year">
+        {publish_year_options}
+      </select>年<select name="publish_month" id="admin-storyeditor-publish_month">
+        {publish_month_options}
+      </select>月<select name="publish_day">
+        {publish_day_options}
+      </select>日<br{xhtml}>
+      <select name="publish_hour">
+        {publish_hour_options}
+      </select>:<select name="publish_minute">
+        {publish_minute_options}
+      </select>
+      {publishampm_selection}
+    </div>
+    <br{xhtml}>
+
+    <div>{lang_images}:</div>
+    {saved_images}
+    {image_form_elements}
+    <div>{lang_hits}: {story_hits}</div>
+    <input type="hidden" name="hits" value="{story_hits}"{xhtml}>
+    <input type="hidden" name="comments" value="{story_comments}"{xhtml}>
+    <input type="hidden" name="trackbacks" value="{story_trackbacks}"{xhtml}>
+    <input type="hidden" name="numemails" value="{story_emails}"{xhtml}>
+    <input type="hidden" name="owner_id" value="{owner_id}"{xhtml}>
+    <div>{lang_comments}:{story_comments}</div>
+    <div>{lang_trackbacks}:{story_trackbacks}</div>
+    <div>{lang_emails}:{story_emails}</div>
+    <hr{xhtml}>
+    <div style="background-color:#ccf;">{lang_accessrights}</div>
+    <div>{lang_owner}: {owner_name}</div>
+    <div>{lang_group}: {group_dropdown}</div>
+    <div>{lang_permissions}:</div>
+    <div style="background-color:#e7e7e7;">{permissions_editor}</div>
+    <div>{lang_perm_key}</div>
+    <br{xhtml}>
+    <input type="submit" value="{lang_save}" name="mode"{xhtml}>
+    <input type="submit" value="{lang_preview}" name="mode"{xhtml}>
+    <input type="submit" value="{lang_cancel}" name="mode"{xhtml}>
+    {delete_option}
+    {submission_option}
+    <input type="hidden" name="old_sid" value="{old_story_id}"{xhtml}>
+    <input type="hidden" name="editopt" value="default"{xhtml}>
+    <input type="hidden" name="hour_mode" value="{hour_mode}"{xhtml}>
+    <input type="hidden" name="{gltoken_name}" value="{gltoken}"{xhtml}>
+</div>
+</form>

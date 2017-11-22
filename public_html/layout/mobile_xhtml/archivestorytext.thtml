@@ -1,0 +1,29 @@
+
+<!-- storytext.thtml { -->
+
+<hr class="separator">
+<div class="storytext">
+  <h2>{start_storylink_anchortag}{story_title}{end_storylink_anchortag}</h2>
+
+  <ul class="status">
+    <li>{story_date}</li>
+    <li>{lang_contributed_by} {start_contributedby_anchortag}{contributedby_user}{end_contributedby_anchortag}
+    </li>
+  </ul>
+
+  <div class="story_introtext">
+    {story_anchortag_and_image}<br>
+    {story_introtext}
+  </div>
+
+  <ul class="navi">
+    <li>{edit_link}</li>
+    <li>{page_selector}</li>
+    <li>{readmore_link}</li>
+    <li>{post_comment_link}</li>
+    <li>{start_comments_anchortag}{comments_with_count}{end_comments_anchortag}</li>
+    <li>{start_trackbacks_anchortag}{trackbacks_with_count}{end_trackbacks_anchortag}</li>
+  </ul>
+</div>
+
+<!-- } storytext.thtml -->

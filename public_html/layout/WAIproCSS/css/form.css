@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/*==============================================================================
+  タイトル: フォームスタイル
+  著者    : Original Coding by Fumito Arakawa as Phize (http://phize.net/)  Accessibility Modifid by Masuko koeda as みるく(http://white-stage.com/)
+  説明    : フォームのスタイルです。
+  適用先  : leftblocks.thtml, loginform.thtml,
+            custom-memberlogin.thtml, customlogin-header.thtml, customlogin-footer.thtml
+==============================================================================*/
+
+
+
+/*--------------------------------------
+  検索フォーム
+--------------------------------------*/
+
+/* ブロック */
+div#leftblocks div#block-left-search {
+  margin: 0 0.2em 0.5em;
+  padding: 0.7em;
+  border-bottom: 1px solid #999999;
+  background: #e0e0e0;
+}
+
+/* フォーム */
+div#leftblocks div#block-left-search form#searchform {
+  margin: 0;
+  padding: 0;
+}
+
+div#leftblocks div#block-left-search form#searchform ul {
+  margin: 0;
+  padding: 0;
+}
+
+div#leftblocks div#block-left-search form#searchform ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* フォームの入力フィールド */
+div#leftblocks div#block-left-search form#searchform ul li input.text {
+  border: 1px solid #7B9EBD;
+}
+
+/* フォームのボタン */
+div#leftblocks div#block-left-search form#searchform ul li input.form-button {
+}
+
+/* 検索オプション */
+div#leftblocks div#block-left-search form#searchform p {
+  margin: 0;
+  padding: 0;
+}
+
+/* 検索結果 */
+.admin-list-search form {
+  display: inline;
+  margin-right: 1em;
+}
+
+/*--------------------------------------
+  ログインフォーム
+--------------------------------------*/
+
+/* フォームの項目 */
+form#loginform dl {
+  margin: 0;
+  padding: 0;
+}
+
+form#loginform dl dt {
+  margin: 0;
+  padding: 0;
+}
+
+form#loginform dl dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* フォームのオプションメニュー */
+form#loginform ul.navi {
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+form#loginform ul.navi li {
+  margin: 0;
+  padding: 0;
+}

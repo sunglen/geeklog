@@ -1,0 +1,16 @@
+{start_block_postacomment}
+<form action="{form_url}" method="post">
+  <div>{lang_username}:</div>
+  {username} [<a href="{action_url}" rel="nofollow">{lang_logoutorcreateaccount}</a>]
+  <input type="hidden" name="sid" value="{sid}"{xhtml}>
+  <input type="hidden" name="pid" value="{pid}"{xhtml}>
+  <input type="hidden" name="type" value="{type}"{xhtml}>
+  <input type="hidden" name="uid" value="{uid}"{xhtml}>
+  <div>{lang_title}:</div>
+  <input type="text" name="title" size="25" value="{title}" maxlength="96"{xhtml}></td>
+  <div>{lang_comment}:</div>
+  <textarea name="comment" rows="6" cols="40" style="font-size:small; width:95%;">{comment}</textarea>
+  <br{xhtml}><input type="submit" name="mode" value="{lang_preview}"{xhtml}>
+  {save_option}
+</form>
+{end_block}

@@ -1,0 +1,28 @@
+<form method="post" action="{s_form_action}">
+<div>
+  <div style="height:20px;">{report_date}</div>
+</div>
+<table width="100%" cellpadding="3" cellspacing="1" border="0">
+  <tr>
+      <th>{lang_time}</th>
+      <th>{lang_user_id}</th>
+      <th>{lang_application}</th>
+      <th>{lang_album_title}</th>
+      <th>{lang_media_title}</th>
+  </tr>
+  <!-- BEGIN usagerow -->
+  <tr>
+      <td class="pluginRow{rowclass}" align="center">{usage_time}</td>
+      <td class="pluginRow{rowclass}">{user_id}</td>
+      <td class="pluginRow{rowclass}">{application}</td>
+      <td class="pluginRow{rowclass}">{album_title}</td>
+      <td class="pluginRow{rowclass}">
+          {media_title}
+      </td>
+  </tr>
+  <!-- END usagerow -->
+</table>
+<div style="text-align:center;margin-top:10px">
+<input type="submit" name="return" value="{lang_new_report}"{xhtml}>
+</div>
+</form>

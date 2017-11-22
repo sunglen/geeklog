@@ -1,0 +1,14 @@
+<form method="post" action="{s_form_action}">
+<table border="0" cellpadding="5" style="width:100%;">
+<!-- BEGIN CheckRow -->
+<tr>
+  <td>{config_item}</td>
+  <td>{status}</td>
+</tr>
+<!-- END CheckRow -->
+</table>
+<div style="text-align:center">
+<input type="submit" name="mode" value="{lang_recheck}"{xhtml}>&nbsp;&nbsp;
+<input type="submit" name="mode" value="{lang_continue}"{xhtml}>
+</div>
+</form>

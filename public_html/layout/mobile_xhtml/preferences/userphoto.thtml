@@ -1,0 +1,4 @@
+           <tr>
+                <td style="width:100px;"><label for="photo">{lang_userphoto}:</label><br{xhtml}>
+                <input type="file" dir="ltr" id="photo" name="photo" size="20"{xhtml}><br{xhtml}>{display_photo}</td>
+           </tr>

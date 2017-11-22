@@ -1,0 +1,41 @@
+<form action="{site_url}/search.php" method="get">
+<div>
+
+{lang_keywords}:<br{xhtml}>
+<input type="text" name="query" size="35" maxlength="35" value="{query}"{xhtml}><br{xhtml}>
+<select name="keyType">
+<option value="phrase" {key_phrase_selected}>{lang_exact_phrase}</option>
+<option value="all" {key_all_selected}>{lang_all_words}</option>
+<option value="any" {key_any_selected}>{lang_any_word}</option>
+</select><br{xhtml}>
+<input type="checkbox" value="true" name="title"{title_checked}{xhtml}>{lang_titles}<br{xhtml}>
+{lang_date}:
+<input type="text" name="datestart" size="10" maxlength="10" value="{datestart}"{xhtml}>-<input type="text" name="dateend" size="10" maxlength="10" value="{dateend}"{xhtml}>
+<br{xhtml}>{date_format}<br{xhtml}>
+
+{lang_topic}:
+<select name="topic">
+<option selected="selected" value="0">{lang_all}</option>
+{topic_option_list}
+</select><br{xhtml}>
+
+{lang_type}:
+<select name="type">
+{plugin_types}
+</select><br{xhtml}>
+
+{author_form_element}<br{xhtml}>
+
+{lang_results}:
+<select name="results">
+<option value="10" {10_selected}>10</option>
+<option value="15" {15_selected}>15</option>
+<option value="25" {25_selected}>25</option>
+<option value="50" {50_selected}>50</option>
+</select>{lang_per_page}<br{xhtml}>
+
+<input type="submit" value="{lang_search}"{xhtml}>
+<input type="hidden" name="mode" value="search"{xhtml}>
+
+</div>
+</form>

@@ -1,0 +1,28 @@
+<!-- custom-memberlogin.thtml -->
+<form style="margin-bottom:0;" action="{site_url}/users.php" method="POST">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left"><font size="1" color="#FFFFFF">ユーザ名</font></td>
+    <td align="left"><font size="1" color="#FFFFFF">パスワード</font></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <font size="1">
+      <input name="loginname" type="text" class="xpinputfield" id="loginname" size="10"></font></td>
+    <td>
+      <font size="1">
+      <input name="passwd" type="password" class="xpinputfield" id="passwd" size="10"></font></td>
+    <td><font size="1"><input value="ログイン" type="submit">
+      </font>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="right">
+      <font size="1">
+      <a href="{site_url}/users.php?mode=getpassword">パスワードをお忘れの方</a> 
+      ｜<a href="{site_url}/users.php?mode=new">新規登録</a>｜<a href="{site_url}/staticpages/index.php?page=login">ヘルプ</a></font>  
+      　　</td>  
+  </tr>
+</table>
+</form>

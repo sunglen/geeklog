@@ -1,0 +1,38 @@
+  {start_block_editor}
+  <form action="{site_admin_url}/plugins/autotags/index.php" method="post">
+      <table border="0" cellspacing="0" cellpadding="3" width="100%">
+          <tr>
+              <td align="right" nowrap>{lang_tag}:</td>
+              <td><input type="text" size="24" maxlength="24" name="tag" value="{tag}"{xhtml}></td>
+          </tr>
+          <tr>
+              <td align="right" nowrap>{lang_desc}:</td>
+              <td><input type="text" name="description" size="40" maxlength="128" value="{description}"{xhtml}></td>
+          </tr>
+          <tr>
+              <td align="right" nowrap>{lang_enabled}</td>
+              <td><input type="checkbox" name="is_enabled" {is_enabled_checked}{xhtml}></td>
+          </tr>
+          <tr>
+              <td align="right" nowrap valign="top">{lang_function}</td>
+              <td><table><tr>{is_function_checkbox}<td>{php_msg}</td></tr></table></td>
+          </tr>
+          <tr>
+              <td valign="top" align="right" nowrap>{lang_replacement}:</td>
+              <td>
+                  <textarea name="replacement" cols="40" rows="5" wrap="virtual">{replacement}</textarea>
+                  <p>{lang_replace_explain}
+              </td>
+          </tr>
+          <tr><td>&nbsp;</td></tr>
+          <tr>
+              <td colspan="2">
+                  <input type="submit" value="{lang_save}" name="mode"{xhtml}> 
+                  <input type="submit" value="{lang_cancel}" name="mode"{xhtml}> 
+                  {delete_option}
+                  <input type="hidden" name="old_tag" value="{old_tag}"{xhtml}>
+              </td>
+          </tr>
+      </table>
+  </form>
+  {end_block}

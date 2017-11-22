@@ -1,0 +1,4 @@
+<!-- start forum_users.thtml -->
+<div class="mobile_titlebar">{LANG_msg07}</div>
+{onlineusers}
+<!-- end forum_users.thtml -->

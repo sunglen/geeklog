@@ -1,0 +1,72 @@
+{doctype}
+<html{html_attribute}{xmlns}>
+  <head profile="http://www.w3.org/2003/g/data-view">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"{xhtml}>
+    <title>{page_title_and_site_name}</title>
+
+    <meta http-equiv="Content-Script-Type" content="text/javascript"{xhtml}>
+    <meta http-equiv="Content-Style-Type" content="text/css"{xhtml}>
+    <meta http-equiv="imagetoolbar" content="no"{xhtml}>
+    <!-- link rel="SHORTCUT ICON" href="{site_url}/favicon.ico" -->
+    <!-- <meta http-equiv="Pragma" content="no-cache"{xhtml}> -->
+    <link rel="stylesheet" type="text/css" href="{css_url}" title="{theme}"{xhtml}>
+    <link rel="start contents" href="{site_url}"{xhtml}>
+{feed_url}
+{rel_links}
+{plg_headercode}
+{advanced_editor}
+<!-- Load Common Javascript Libraries -->
+    <script type="text/javascript" src="{site_url}/javascript/common.js"></script>
+    <script type="text/javascript" src="{layout_url}/javascript/confirm.js"></script>
+    <script type="text/javascript" src="{layout_url}/javascript/fix_html.js"></script>
+  </head>
+
+
+  <body class="js_off">
+<!-- header.thtml { -->
+
+<!-- #container { -->
+<!-- コンテナ -->
+<div id="container">
+
+  <!-- #header { -->
+  <!-- ヘッダコンテナ -->
+  <div id="header">
+<p class="skip"><a name="top" id="top">ページの先頭</a></p>
+
+    <h1 class="site_name"><a href="{site_url}" accesskey="t"><!-- <img src="{layout_url}/images/logo.gif" width="151" height="54" alt="{site_name}"{xhtml}> -->{site_name}</a></h1>
+    <p class="site_slogan">{site_slogan}</p>
+       <p class="welcome_msg">{welcome_msg_jp}&nbsp;{datetime}</p>
+  </div>
+  <!-- } #header -->
+
+  <hr class="separator"{xhtml}>
+  
+  <p class="skip"><a href="#article">メニューをスキップして本文へ</a></p>
+
+  <!-- #navigation { -->
+  <!-- グローバルナビゲーションコンテナ -->
+  <div id="navigation">
+    <ul>
+      {menu_elements}
+    </ul>
+  </div>
+  <!-- } #navigation -->
+
+  <hr class="separator"{xhtml}>
+
+  <!-- #wrapper { -->
+  <!-- ラッパー -->
+  <div id="wrapper">
+  <div id="carrier">
+
+  
+  <p class="skip"><a name="article" id="article">ここから本文</a></p>
+
+    <!--[if !IE]> Win IE 6のバグを回避するために条件コメントを使用しています。 <![endif]-->
+    <!--[if !IE]> (複数の浮動要素を組み合わせた場合に、最後の浮動要素の内容が重複するバグ) <![endif]-->
+    <!--[if !IE]> #centerblocks { <![endif]-->
+    <!-- 中央ブロックコンテナ -->
+    <div id="centerblocks">
+	      
+<!-- } header.thtml -->

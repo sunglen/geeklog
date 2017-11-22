@@ -1,0 +1,5 @@
+
+<!-- start navbar.thtml -->
+{navmenu}
+{search_forum}
+<!-- end navbar.thtml -->

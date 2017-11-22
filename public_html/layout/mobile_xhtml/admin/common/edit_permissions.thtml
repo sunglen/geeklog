@@ -1,0 +1,15 @@
+<div>{lang_owner}<br{xhtml}>
+<b>R</b><input type="checkbox" name="perm_owner[]" value="2"{owner_r_checked}{xhtml}><b>E</b><input type="checkbox" name="perm_owner[]" value="1"{owner_e_checked}{xhtml}>
+</div>
+
+<div>{lang_group}<br{xhtml}>
+<b>R</b><input type="checkbox" name="perm_group[]" value="2"{group_r_checked}{xhtml}><b>E</b><input type="checkbox" name="perm_group[]" value="1"{group_e_checked}{xhtml}>
+</div>
+
+<div>{lang_members}<br{xhtml}>
+<b>R</b><input type="checkbox" name="perm_members[]" value="2"{members_checked}{xhtml}>
+</div>
+
+<div>{lang_anonymous}<br{xhtml}>
+<b>R</b><input type="checkbox" name="perm_anon[]" value="2"{anon_checked}{xhtml}>
+</div>

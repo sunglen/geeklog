@@ -1,0 +1,26 @@
+Geeklog 自動タグプラグインのインストール・アンインストール方法
+
+インストール:
+
+Step 1:  念のためGeeklogのデータベースをバックアップしてください。このプラグインはGeeklogに自動タグプラグイン用にテーブルを追加します。
+
+Step 2:  自動タグプラグインのファイルをダウンロードして準備します。（すでに圧縮ファイルを展開していますね。）
+
+Step 3:  公開領域の下のadmin/plugins/ディレクトリとautotagsディレクトリに "autotags"の名前でディレクトリを作成してください。admin/plugins/ディレクトリにadmin以下をアップロード，autotagsディレクトリにpaublic_html以下のファイルをアップロードしてください。
+
+Step 4:  非公開領域のgeeklog/plugins/autotags/ディレクトリにStep 3でアップロードしたファイル以外のファイルをすべてアップロードしてください。
+
+Step 5:  Step 4のファイルの中のconfig.phpを編集すると，autotagsのコンフィギュレーションを設定できます。
+
+Step 6:  Geeklogに管理者としてログインし，プラグイン管理画面で，autotagsインストールをクリックしてインストールします。
+
+アンインストール:
+
+Step 1:  プラグイン管理画面で，autotagsを編集して削除します。
+
+Step 2:  アップロードされているautotagsのファイルをすべて削除します。
+<geeklog-dir>plugins/autotags/ 
+<public_html>/autotags/
+<admin>/plugins/autotags/
+
+以上

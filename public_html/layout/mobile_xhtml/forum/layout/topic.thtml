@@ -1,0 +1,37 @@
+<!-- start topic.thtml -->
+<div class="pluginRow{csscode}">
+{mod_functions}
+<hr{xhtml}>
+
+{userlink}<br{xhtml}>
+{user_level}<br{xhtml}>
+{user_levelname}
+{magical_image}
+{avatar}<br{xhtml}>
+{member_badge}
+{regdate}
+{numposts}<br{xhtml}>
+<hr{xhtml}>
+
+<img alt="" src="{imgset}/icon_minipost.gif"{xhtml}>&nbsp;{posted_date}{preview_topic_subject}<br{xhtml}>
+{read_msg}&nbsp;{locked_icon}
+{location}
+<hr{xhtml}>
+
+{topic_comment}
+<hr{xhtml}>
+
+<div style="height:45px; padding-top:10px;display:{show_sig};">
+{sig}<br{xhtml}>
+{remote_ip}
+</div>
+
+{profile_link}
+{email_link}
+{website_link}
+{pm_link}
+{edittopic_link}
+{quotetopic_link}
+<hr{xhtml}>
+</div>
+<!-- end topic.thtml -->

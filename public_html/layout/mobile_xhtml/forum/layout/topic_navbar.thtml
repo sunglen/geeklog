@@ -1,0 +1,10 @@
+<!-- start topic_navbar.thtml -->
+{navbreadcrumbsimg}&nbsp;<a href="{site_url}/forum/index.php">{forum_home}</a>&nbsp;&#62;&nbsp;<a href="{site_url}/forum/index.php">{cat_name}</a>&nbsp;&#62;&nbsp;<a href="{site_url}/forum/index.php?forum={forum_id}">{forum_name}</a><br{xhtml}>
+{navtopicimg}&nbsp;<b><a href="viewtopic.php?showtopic={topic_id}">{subject}</a></b><br{xhtml}>
+<hr{xhtml}>
+{newtopic_link}{replytopic_link}
+{pagenavigation}
+{subscribe_link}
+<hr{xhtml}>
+{prevtopic_link}{nexttopic_link} 
+<!-- end topic_navbar.thtml -->

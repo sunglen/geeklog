@@ -1,0 +1,31 @@
+<!--mobile_doctype-->
+<!--mobile_html-->
+<head>
+<!--mobile_content_type-->
+<meta http-equiv="Content-Style-Type" content="text/css"{xhtml}>
+<title>{page_title_and_site_name}</title>
+<meta http-equiv="Pragma" content="no-cache"{xhtml}>
+<meta http-equiv="Cache-Control" content="no-cache"{xhtml}>
+<meta http-equiv="Expires" content="-1"{xhtml}>
+<link rel="alternate" media="handheld" href="{site_url}"{xhtml}>
+{plg_headercode}
+</head>
+<body>
+<div style="font-size:small; padding:0px">
+<!-- #header { -->
+<div class="header" style="border-bottom:1px solid #3366CC">
+  <div style="background-color: #336699; color:#fff; text-align:center; font-size:large;">
+  <div style="font-size:x-small;"><br{xhtml}></div>
+  <div>{site_name}</div>
+  <div style="font-size:x-small;">{site_slogan}<br{xhtml}><br{xhtml}></div>
+  </div>
+  <div style="font-size:small">{welcome_msg_jp}</div>
+  <?php
+      if (function_exists('phpblock_themetester') AND function_exists('CUSTOM_MOBILE_is_cellular') AND !CUSTOM_MOBILE_is_cellular()) {
+          echo phpblock_themetester();
+      }
+  ?>
+</div>
+<!-- } #header -->
+<div style="text-align:left">
+

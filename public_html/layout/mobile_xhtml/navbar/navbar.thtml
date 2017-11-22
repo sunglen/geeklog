@@ -1,0 +1,6 @@
+<div id="navcontainer">
+<div id="navlist">
+{menuitems}
+</div>
+</div>
+<hr{xhtml}>

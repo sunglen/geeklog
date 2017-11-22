@@ -1,0 +1,7 @@
+<li id="{menuitem_id}"{class_property}><a href="{menuitem_url}"{class_property}>{menuitem_text}<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+{menu_elements}
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>

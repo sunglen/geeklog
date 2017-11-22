@@ -1,0 +1,11 @@
+
+<!-- start forumlisting_record.thtml -->
+{folderimg}
+<a class="pluginLinks" style="text-decoration:none;" href="index.php?forum={forum_id}">{forum_name}</a><div style="text-align:left">{forum_desc}</div>{moderator}
+{LANGGF01_TOPICS}:{topics}<br{xhtml}>
+{LANGGF01_POSTS}:{posts}<br{xhtml}>
+{LANGGF01_LASTPOST}: {lastpostmsgTopic}<br{xhtml}>
+{lastpostmsgDate}<br{xhtml}>
+{lastpostmsgBy}<br{xhtml}>
+<hr{xhtml}>
+<!-- end forumlisting_record.thtml -->

@@ -1,0 +1,108 @@
+<div class="clearboth">
+<form action="{site_url}/usersettings.php" method="post" {enctype}>
+    <div id="pe_preview" class="jsenabled_hide" style="display:none;">
+        <fieldset style="margin-top:10px;">
+            <legend>{lang_preview_title}</legend>
+            {preview}
+        </fieldset>
+    </div>
+    <div id="pe_namepass" class="jsenabled_show">
+        <fieldset style="margin-top:10px;"><legend>{lang_name_legend}</legend>
+            <table class="inputTable">
+                {username_option}
+                <tr>
+                    <td style="width:150px;"><label for="fullname">{lang_fullname}:</label></td>
+                    <td><input type="text" id="fullname" name="fullname" size="32" maxlength="80" value="{fullname_value}"{xhtml}></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="margin-top:10px;"><legend>{lang_password_email_legend}</legend>
+<!--
+            <div class="notes">
+                <h4>{lang_password_help_title}</h4>
+                <p class="last">
+                    {lang_password_help}<br{xhtml}><br{xhtml}>
+                    <span class="warningsmall">{lang_enter_current_password}</span>  
+                </p>
+            </div>
+-->
+            <table class="inputTable" border="0">
+                <tr>
+                    <td style="width:150px;"><label for="passwd">{lang_password}:</label><br{xhtml}>
+                    <input type="password" id="passwd" name="passwd" size="32" maxlength="32" value="{password_value}"{xhtml}></td>
+                </tr>
+                <tr>
+                    <td><label for="passwd_conf">{lang_password_conf}:</label></td>
+                    <td><input type="password" id="passwd_conf" name="passwd_conf" size="32" maxlength="32" value="{password_value}"{xhtml}></td>
+                </tr>
+                <tr>
+                    <td><label for="cooktime">{lang_cooktime}:</label><br{xhtml}>
+                    {cooktime_selector}</td>
+                </tr>
+                <tr>
+                    <td><label for="email">{lang_email}:</label><br{xhtml}>
+                    <input type="text" id="email" name="email" size="32" maxlength="96" value="{email_value}"{xhtml}></td>
+                </tr>
+                <tr>
+                    <td><label for="email_conf">{lang_email_conf}:</label><br{xhtml}>
+                    <input type="text" id="email_conf" name="email_conf" size="32" maxlength="96" value="{email_value}"{xhtml}></td>
+                </tr>
+                <tr>
+                    <td><label for="old_passwd" class="warningsmall">{lang_old_password}:</label><br{xhtml}>
+                    <input type="password" id="old_passwd" name="old_passwd" size="32" maxlength="32" value=""{xhtml}></td>
+                </tr>
+            </table>
+            {delete_account_option}
+        </fieldset>
+    </div>
+    <div id="pe_userinfo" class="jsenabled_hide">
+        <fieldset style="margin-top:10px;"><legend>{lang_personal_info_legend}</legend>
+<!--
+            <div class="notes">
+                <h4>{lang_userinfo_help_title}</h4>
+                {lang_userinfo_help}
+            </div>
+-->
+            <table class="inputTable">
+                <tr>
+                    <td style="width:100px;"><label for="homepage">{lang_homepage}:</label><br{xhtml}>
+                    <input type="text" id="homepage" name="homepage" size="32" maxlength="128" value="{homepage_value}"{xhtml}></td>
+                </tr>
+                <tr>
+                    <td style="width:100px;"><label for="location">{lang_location}:</label><br{xhtml}>
+                    <input type="text" id="location" name="location" size="32" maxlength="96" value="{location_value}"{xhtml}></td>
+                </tr>
+                {userphoto_option}
+                <tr>
+                    <td style="width:100px;"><label for="sig">{lang_signature}:</label><br{xhtml}>
+                    <textarea id="sig" name="sig" style="font-size:small; width:95%" cols="20" rows="4">{signature_value}</textarea></td>
+                </tr>
+                <tr>
+                    <td style="width:100px;"><label for="about">{lang_about}:</label><br{xhtml}>
+                    <textarea id="about" name="about" style="font-size:small; width:95%" cols="20" rows="4">{about_value}</textarea></td>
+                </tr>
+                <tr>
+                    <td style="width:100px;"><label for="pgpkey">{lang_pgpkey}:</label><br{xhtml}>
+                    <textarea id="pgpkey" name="pgpkey" style="font-size:small; width:95%" cols="20" rows="4">{pgpkey_value}</textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+
+    {prefs}
+    <p class="aligncenter" id="save_button">
+
+<!-- サイトのデフォルトの値に差し替えてください -->
+        <input type="hidden" name="theme" value="professional"{xhtml}>
+        <input type="hidden" name="maxstories" value="10"{xhtml}>
+<!-- ここまで -->
+
+        <input type="hidden" name="uid" value="{uid_value}"{xhtml}>
+        <input type="hidden" name="mode" value="saveuser"{xhtml}>
+        <input type="hidden" name="username" value="{username_value}"{xhtml}>
+        <span style="padding-left:5px;"><input type="submit" name="btnsubmit" value="{lang_submit}"{xhtml}>
+        <input type="submit" name="btncancel" value="{lang_cancel}"{xhtml}></span>
+    </p>
+</form>
+</div>
+

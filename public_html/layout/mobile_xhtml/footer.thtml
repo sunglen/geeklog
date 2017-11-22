@@ -1,0 +1,21 @@
+<!-- footer.thtml { -->
+</div>
+<!-- } #wrapper -->
+<div style="padding:5px 0;background-color:#EEE;border-top:1px solid #CCC">
+<kana>
+<div>{mn_tohome}</div>
+<div>{mn_login_or_logout}</div>
+<div>{mn_submit}</div>
+<div>{mn_forum}</div>
+<div>{mn_filemgmt}</div>
+<div>{mn_mediagallery}</div>
+<div>{mn_directory}</div>
+<div>{mn_search}</div>
+<div>{mn_block}</div>
+<div>{mn_myaccount}</div>
+</kana>
+</div>
+{googleanalytics} 
+</div>
+</body>
+</html>

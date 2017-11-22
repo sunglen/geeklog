@@ -1,0 +1,8 @@
+
+<!-- preferences/theme.thtml { 
+
+テーマは携帯表示の際には無効になるためコメントアウトします。
+<dt><label for="theme">{lang_theme}</label></dt>
+<dd>{theme_selector}</dd>
+
+ } preferences/theme.thtml -->

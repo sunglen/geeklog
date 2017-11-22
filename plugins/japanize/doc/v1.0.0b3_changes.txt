@@ -1,0 +1,16 @@
+1.0.0b2 ～ 1.0.0b3 改善点 2008/09/03
+
+1.アンインストール時にcalendarプラグインのブロックを削除して
+　しまっていたのを修正
+    functions.inc
+2.管理画面(更新)テンプレート変更
+    templates/admin/index.thtml
+3.日本語Pingサイト「ドリコムRSS」 ウェブサイト変更
+    sql/sql_japanize_3.php
+    管理画面（更新）で日本語pingサイトの「日本語化実行」をクリック
+    してください。「ドリコムRSS」 ウェブサイトが訂正されます
+差替ファイル
+--------------------
+functions.inc
+templates/admin/index.thtml
+sql/sql_japanize_3.php

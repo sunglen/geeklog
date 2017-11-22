@@ -1,0 +1,17 @@
+#!/usr/local/bin/php -q 
+<?php
+// ユーザが選択した話題の記事をEメールでユーザに配信します。
+//
+// このスクリプトを使用するには、PHPがシェルスクリプト用の言語としてコンパイル
+// されている必要があります。
+// crontab (man crontab)からこのスクリプトを実行します。
+// また、このファイルに実行可能なパーミッション(x)を付加する必要があります。
+//
+// 注意：万一、日本語コードの関係でこのファイルを使うと失敗する場合は、
+// emailgeeklogstories.en を emailgeeklogstories にリネームしてお使いください。
+//
+// 次の行の /path/to/geeklog/lib-common.php を実際の lib-common.php のパスに
+// 合わせて変更してください。
+include('/path/to/geeklog/lib-common.php');
+
+COM_emailUserTopics();

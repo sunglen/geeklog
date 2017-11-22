@@ -1,0 +1,18 @@
+{search_menu}
+<hr{xhtml}>
+<form action="{form_url}" method="post">
+    {formfields_top}
+    <table class="admin-list-table">
+        <tr style="background:#FFFFFF;">
+         {header_row}<hr{xhtml}>
+        </tr>
+        {item_row}
+    </table>
+    <div>
+        <input style="padding:5px 0px 0px 9px;{show_deleteimage}" name="delbutton" alt="delbutton" type="image" src="{layout_url}/images/deleteitem.png" title="{lang_deleteall}" onclick="return confirm('{lang_delconfirm}');"{xhtml}>
+        {formfields_bottom}
+    </div>
+</form>
+<p class="aligncenter" style="{show_message}"><b>{message}</b></p>
+{google_paging}
+<br{xhtml}>

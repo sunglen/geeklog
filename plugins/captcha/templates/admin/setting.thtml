@@ -1,0 +1,288 @@
+<script type="text/javascript">
+<!--
+function showhideEditorDiv(option,selindex)
+{
+  var divarray = new Array("page01","page02");
+
+  var current = document.getElementById("current");
+  if (current) current.id = "";
+  var navbar = document.getElementById("navlist");
+  var menuitems = new Array(10);
+  var item = 0;
+  for (var i=0 ;i < navbar.childNodes.length ; i++ ) {
+      if (navbar.childNodes[i].nodeName.toLowerCase() == "li") {
+          menuitems[item] = navbar.childNodes[i];
+          item++;
+      }
+  }
+  var menuitem = menuitems[selindex];
+  for (var j=0 ;j < menuitem.childNodes.length ; j++ ) {
+      if (menuitem.childNodes[j].nodeName.toLowerCase() == "a")  menuitem.childNodes[j].id = "current";
+  }
+
+  for (i=0; i < divarray.length; i++) {
+      div = divarray[i];
+      if (option != "all" && option != divarray[i]) {
+          document.getElementById(div).style.display = "none";
+      } else {
+          document.getElementById(div).style.display = "block";
+      }
+  }
+}
+function dodisabled(){
+  var gfxdriver = document.getElementById('gfxdriver');
+  var imageset = document.getElementById('imageset');
+  var gfxpath = document.getElementById('gfxpath');
+  var gfxformat = document.getElementById('gfxformat');
+  var sister_mes_a = document.getElementById('sister_mes_a');
+  var sister_mes_b = document.getElementById('sister_mes_b');
+  var sister_len_min = document.getElementById('sister_len_min');
+  var sister_len_max = document.getElementById('sister_len_max');
+  var sister_outlen = document.getElementById('sister_outlen');
+  var sister_image = document.getElementById('sister_image');
+  var new_sister_image = document.getElementById('new_sister_image');
+  var sister_font = document.getElementById('sister_font');
+  var new_sister_font = document.getElementById('new_sister_font');
+  var sister_fsize = document.getElementById('sister_fsize');
+  var sister_fx = document.getElementById('sister_fx');
+  var sister_fy = document.getElementById('sister_fy');
+  var sister_words = document.getElementById('sister_words');
+  var sister_css = document.getElementById('sister_css');
+  if (gfxdriver.value == "0") {
+    imageset.disabled=true;
+    gfxpath.disabled=true;
+    gfxformat.disabled=false;
+    sister_mes_a.disabled=true;
+    sister_mes_b.disabled=true;
+    sister_len_min.disabled=true;
+    sister_len_max.disabled=true;
+    sister_outlen.disabled=true;
+    sister_image.disabled=true;
+    new_sister_image.disabled=true;
+    sister_font.disabled=true;
+    new_sister_font.disabled=true;
+    sister_fsize.disabled=true;
+    sister_fx.disabled=true;
+    sister_fy.disabled=true;
+    sister_words.disabled=true;
+    sister_css.disabled=true;
+  } else if ( gfxdriver.value == "1") {
+    imageset.disabled=true;
+    gfxpath.disabled=true;
+    gfxformat.disabled=false;
+    sister_mes_a.disabled=false;
+    sister_mes_b.disabled=false;
+    sister_len_min.disabled=false;
+    sister_len_max.disabled=false;
+    sister_outlen.disabled=false;
+    sister_image.disabled=false;
+    new_sister_image.disabled=false;
+    sister_font.disabled=false;
+    new_sister_font.disabled=false;
+    sister_fsize.disabled=false;
+    sister_fx.disabled=false;
+    sister_fy.disabled=false;
+    sister_words.disabled=true;
+    sister_css.disabled=false;
+  } else if ( gfxdriver.value == "2") {
+    imageset.disabled=true;
+    gfxpath.disabled=false;
+    gfxformat.disabled=false;
+    sister_mes_a.disabled=true;
+    sister_mes_b.disabled=true;
+    sister_len_min.disabled=true;
+    sister_len_max.disabled=true;
+    sister_outlen.disabled=true;
+    sister_image.disabled=true;
+    new_sister_image.disabled=true;
+    sister_font.disabled=true;
+    new_sister_font.disabled=true;
+    sister_fsize.disabled=true;
+    sister_fx.disabled=true;
+    sister_fy.disabled=true;
+    sister_words.disabled=true;
+    sister_css.disabled=true;
+  } else {
+    imageset.disabled=false;
+    gfxpath.disabled=true;
+    gfxformat.disabled=true;
+    sister_mes_a.disabled=true;
+    sister_mes_b.disabled=true;
+    sister_len_min.disabled=true;
+    sister_len_max.disabled=true;
+    sister_outlen.disabled=true;
+    sister_image.disabled=true;
+    new_sister_image.disabled=true;
+    sister_font.disabled=true;
+    new_sister_font.disabled=true;
+    sister_fsize.disabled=true;
+    sister_fx.disabled=true;
+    sister_fy.disabled=true;
+    sister_words.disabled=true;
+    sister_css.disabled=true;
+  }
+}
+-->
+</script>
+<h2>{lang_msg}</h2>
+<h2 class="block-title">{lang_admin}</h2>
+<div id="admin-instructions">
+<a href="{site_admin_url}/plugins/captcha/index.php"><img src="{site_url}/captcha/captcha.png" border="0" alt=""{xhtml}></a>
+<p align="left">{lang_overview}</p>
+<p align="left"><a href="{site_admin_url}/plugins/captcha/logview.php?action=View Log File&amp;log=captcha.log">{lang_view_logfile}</a></p>
+</div>
+<h2 class="block-title">{lang_settings}</h2>
+<form id="captcha" action="{s_form_action}" method="post" enctype="multipart/form-data">
+<div class="navbar">
+{navlist}
+</div>
+<div id="page01" style="display:block;">
+  <fieldset class="lv1">
+    <legend>{lang_configuration}</legend>
+    <p>
+      <span class="label">{lang_gfx_driver}</span>
+      <select name="gfxdriver" id="gfxdriver" onChange="dodisabled()">
+       <option value="0" {gdselected}>{lang_gd_libs}</option>
+       <option value="1" {gdsisterselected}>{lang_gd_sister_libs}</option>
+       <option value="2" {imselected}>{lang_imagemagick}</option>
+       <option value="3" {noneselected}>{lang_static_images}</option>
+      </select>
+    </p>
+    <p>
+      <span class="label">{lang_imageset}</span>
+      {selectImageSet}
+    </p>
+    <p>
+      <span class="label">{lang_gfx_format}</span>
+      <select name="gfxformat" id="gfxformat">
+       <option value="jpg" {jpgselected}>JPG</option>
+       <option value="png" {pngselected}>PNG</option>
+      </select>
+    </p>
+    <p>
+      <span class="label">{lang_convert_path}</span>
+      <input type="text" name="gfxpath" id="gfxpath" value="{gfxpath}" size="60"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="debug" class="normal">{lang_debug}</label></span>
+      <input type="checkbox" name="debug" id="debug" {debugchecked}{xhtml}>
+    </p>
+  </fieldset>
+  <fieldset class="lv1">
+    <legend>{lang_integration}</legend>
+    <p>
+      <span class="label"><label for="anononly" class="normal">{lang_anonymous_only}</label></span>
+      <input type="checkbox" name="anononly" id="anononly" {anonchecked}{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="remoteusers" class="normal">{lang_remoteusers}</label></span>
+      <input type="checkbox" name="remoteusers" id="remoteusers" {remotechecked}{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="comment" class="normal">{lang_enable_comment}</label></span>
+      <input type="checkbox" name="comment" id="comment" {commentchecked}{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="story" class="normal">{lang_enable_story}</label></span>
+      <input type="checkbox" name="story" id="story" {storychecked}{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="registration" class="normal">{lang_enable_registration}</label></span>
+      <input type="checkbox" name="registration" id="registration" {registrationchecked}{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="contact" class="normal">{lang_enable_contact}</label></span>
+      <input type="checkbox" name="contact" id="contact" {contactchecked}{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="emailstory" class="normal">{lang_enable_emailstory}</label></span>
+      <input type="checkbox" name="emailstory" id="emailstory" {emailstorychecked}{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="forum" class="normal">{lang_enable_forum}</label></span>
+      <input type="checkbox" name="forum" id="forum" {forumchecked}{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="mediagallery" class="normal">{lang_enable_mediagallery}</label></span>
+      <input type="checkbox" name="mediagallery" id="mediagallery" {mediagallerychecked}{xhtml}>
+    </p>
+{integration_elements}
+  </fieldset>
+</div>
+
+<div id="page02" style="display:none;">
+  <fieldset class="lv1">
+    <legend>{lang_auth_sister}</legend>
+    <p>
+      <span class="label"><label for="sister_mes_a" class="normal">{lang_sister_mes_a}</label></span>
+      <input type="text" size="10" value="{val_sister_mes_a}" name="sister_mes_a" id="sister_mes_a" class="text"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="sister_mes_b" class="normal">{lang_sister_mes_b}</label></span>
+      <input type="text" size="10" value="{val_sister_mes_b}" name="sister_mes_b" id="sister_mes_b" class="text"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="sister_len_min" class="normal">{lang_sister_len_min}</label></span>
+      <input type="text" size="10" value="{val_sister_len_min}" name="sister_len_min" id="sister_len_min" class="text"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="sister_len_max" class="normal">{lang_sister_len_max}</label></span>
+      <input type="text" size="10" value="{val_sister_len_max}" name="sister_len_max" id="sister_len_max" class="text"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="sister_outlen" class="normal">{lang_sister_outlen}</label></span>
+      <input type="text" size="40" value="{val_sister_outlen}" name="sister_outlen" id="sister_outlen" class="text"{xhtml}>
+    </p>
+  </fieldset>
+  <fieldset class="lv1">
+    <legend>{lang_auth_sister_package}</legend>
+    <p>
+      <span class="label"><label for="sister_image" class="normal">{lang_sister_image}</label></span>
+      {selectSisterImage}
+    </p>
+    <p>
+      <span class="label"><label for="new_sister_image" class="normal">{lang_new_sister_image}</label></span>
+      <input type="file" name="new_sister_image" id="new_sister_image"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="sister_font" class="normal">{lang_sister_font}</label></span>
+      {selectSisterFont}
+    </p>
+    <p>
+      <span class="label"><label for="new_sister_font" class="normal">{lang_new_sister_font}</label></span>
+      <input type="file" name="new_sister_font" id="new_sister_font"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="sister_fsize" class="normal">{lang_sister_fsize}</label></span>
+      <input type="text" size="10" value="{val_sister_fsize}" name="sister_fsize" id="sister_fsize" class="text"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="sister_fx" class="normal">{lang_sister_fx}</label></span>
+      <input type="text" size="10" value="{val_sister_fx}" name="sister_fx" id="sister_fx" class="text"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="sister_fy" class="normal">{lang_sister_fy}</label></span>
+      <input type="text" size="10" value="{val_sister_fy}" name="sister_fy" id="sister_fy" class="text"{xhtml}>
+    </p>
+    <p>
+      <span class="label"><label for="sister_words" class="normal">{lang_sister_words}</label></span>
+      <textarea rows="7" cols="40" name="sister_words" id="sister_words" class="textbox">{val_sister_words}</textarea>
+    </p>
+    <p>
+      <span class="label"><label for="sister_css" class="normal">{lang_sister_css}</label></span>
+      <textarea rows="7" cols="40" name="sister_css" id="sister_css" class="textbox">{val_sister_css}</textarea>
+    </p>
+  </fieldset>
+</div>
+
+<hr class="hidden">
+<div align="center">
+<input type="submit" name="mode" value="{lang_save}"{xhtml}>
+<input type="submit" name="mode" value="{lang_cancel}"{xhtml}>
+</div>
+</form>
+<script type="text/javascript">
+<!--
+dodisabled();
+-->
+</script>

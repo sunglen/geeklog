@@ -1,0 +1,77 @@
+
+<!-- start settings.thtml -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>
+            <form action="{phpself}" method="post">
+            
+
+
+            <div class="mobile_titlebar">{LANG_gensettings}</div>
+
+
+            <table width="100%" border="0" cellspacing="1" cellpadding="3" class="pluginSolidOutline" style="margin-bottom:1em">
+                {group1_options}
+            </table>
+
+
+
+            <div class="mobile_titlebar">{LANG_topicsettings}</div>
+
+
+            <table width="100%" border="0" cellspacing="1" cellpadding="3" class="pluginSolidOutline" style="margin-bottom:1em">
+                {group2_options}
+            </table>
+
+
+
+            <div class="mobile_titlebar">{LANG_cbsettings}</div>
+
+
+            <table width="100%" border="0" cellspacing="1" cellpadding="3" class="pluginSolidOutline" style="margin-bottom:1em">
+                {group3_options}
+                <tr>
+                    <td class="pluginCellSubTitle" style="width:160;">{LANG_cbposition}</td>
+                    <td class="pluginCellText pluginCellFill">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="padding-right:15px;">{LANG_cbpositiondscp}</td>
+                                <td style="text-align:right;">{pos_selection}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+
+
+            <div class="mobile_titlebar">{LANG_blocksettings}</div>
+
+
+            <table width="100%" border="0" cellspacing="1" cellpadding="3" class="pluginSolidOutline" style="margin-bottom:1em">
+                {group4_options}
+            </table>
+
+
+
+            <div class="mobile_titlebar">{LANG_ranksettings}</div>
+
+
+            <table width="100%" border="0" cellspacing="1" cellpadding="3" class="pluginSolidOutline" style="margin-bottom:1em">
+                {ranking_options}
+            </table>
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td style="padding:10px;text-align:right;">
+                        <input type="submit" name="submit" value="{LANG_savesettings}"{xhtml}>
+                        <input type="hidden" name="savesettings" value="yes"{xhtml}>
+                        <input type="hidden" name="{gltoken_name}" value="{gltoken}"{xhtml}>
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </td>
+    </tr>
+</table>
+<!-- end settings.thtml -->
